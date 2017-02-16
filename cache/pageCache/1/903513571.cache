@@ -1,0 +1,14 @@
+ <!-- Tag list section ................................................................ -->
+			<section class="tag entry_post panel panel-default">
+				<header>
+[##_SKIN_head_start_##]					<hgroup class="page-header">
+						<h2><i class="fa fa-tags"></i> Tag Cloud <small>Keywords with size based on popularity</small></h2>
+					</hgroup>
+				</header>
+				<article>
+					<ul>
+					
+					</ul>
+				</article>
+			</section>
+			

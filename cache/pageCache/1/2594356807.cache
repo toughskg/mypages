@@ -1,0 +1,1417 @@
+a:93:{s:6:"outter";s:13935:"<!DOCTYPE html>
+<html lang="ko">
+[##_SKIN_html_start_##]<head>
+<meta name="generator" content="Textcube 1.10.7 : Tempo primo" />
+[##_SKIN_head_start_##]	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> [##_page_title_##]</title>
+	<meta http-equiv="Keywords" content="[##_meta_http_equiv_keywords_##]" />
+	<meta name="description" content="">
+	<meta name="author" content="toughskg">
+	<link href="http://mypages.co.kr/skin/blog/periwinkle/css/bootstrap.css" rel="stylesheet"> <!-- modified for IE8 compatibility -->
+	<!--<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">--> <!-- If you do not need to support IE8, use this line. -->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="http://mypages.co.kr/skin/blog/periwinkle/css/flat-ui.css" rel="stylesheet">
+	<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+		<!--[if lt IE 9]>
+			<script src="http://mypages.co.kr/skin/blog/periwinkle/js/html5shiv.js"></script>
+			<script src="http://mypages.co.kr/skin/blog/periwinkle/js/respond.min.js"></script>
+		<![endif]-->
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="alternate" type="application/rss+xml" title="" href="http://mypages.co.kr/rss" />
+	<link rel="alternate" type="application/rss+xml" title=" : responses" href="http://mypages.co.kr/rss/response" />
+	<link rel="alternate" type="application/atom+xml" title="" href="http://mypages.co.kr/atom" />
+	<link rel="alternate" type="application/atom+xml" title=" : responses" href="http://mypages.co.kr/atom/response" />
+	<link rel="stylesheet" media="screen" type="text/css" href="http://mypages.co.kr/skin/blog/periwinkle/style.css" />
+[##_SKIN_head_end_##]</head>
+
+<body id="[##_body_id_##]">
+[##_SKIN_body_start_##]<div class="container" id="#LN-content">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<h3 class="page-header"><a href="/"></a></h3>
+			<p></p>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<nav id="menu" class="navbar navbar-inverse" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span>
+					 <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+					 <a class="navbar-brand" href="/"><i class="fa fa-home"></i> Blog</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="menuCover"><a href="/cover"><i class="fa fa-th-large"></i> Cover</a></li>
+						<li class="menuNotice"><a href="/notice"><i class="fa fa-thumb-tack"></i> Notice</a></li>
+						<li class="menuGuestbook"><a href="/guestbook"><i class="fa fa-file-text-o"></i> Guest Book</a></li>
+						<li class="dropdown menuTag menuLocal menuKeyword menuLine">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-folder-o"></i> Tag & <strong class="caret"></strong></a>
+						  <ul class="dropdown-menu">
+							<li><a href="/tag"><i class="fa fa-tags"></i> Tag List</a></li>
+							<li><a href="/location"><i class="fa fa-map-marker"></i> Location</a></li>
+							<li><a href="/keylog"><i class="fa fa-flag-o"></i> Keywords</a></li>
+							<li><a href="/line"><i class="fa fa-comments-o"></i> Lines</a></li>
+						  </ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/owner"><i class="fa fa-cogs"></i><span class="owner"> Control Panel</span></a></li>
+						<li><a href="/owner/entry/post"><i class="fa fa-pencil-square-o"></i><span class="owner"> Write a Post</span></a></li>
+					</ul>
+				</div>
+
+			</nav>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-9 column">
+
+			[##_cover_##]
+			[##_list_##]
+			[##_rplist_##]
+			[##_tblist_##]
+			[##_line_##]
+			[##_local_##]
+			[##_tag_##]
+			[##_guest_##]
+			[##_keyword_##]
+			[##_keylog_rep_##]
+			[##_notice_rep_##]
+			<s_page_rep> <!-- Notice and pages section ............................................ -->
+			<section class="page pages post pages_post panel panel-default">
+				<header class="page-header">
+[##_SKIN_head_start_##]					<h3><i class="fa fa-check-circle-o"></i><a href="[##_page_rep_link_##]"> [##_page_rep_title_##]</a></h3>
+				</header>
+				<article>
+					<ul class="breadcrumb admin">
+						<li class="date"><i class="glyphicon glyphicon-calendar"></i> <dfn>Posted</dfn> at <time>[##_page_rep_date_##]</time></li>
+						<li class="author"><i class="glyphicon glyphicon-pencil"></i> <dfn>Posted</dfn> by <cite><a href="[##_article_rep_author_link_##]">[##_article_rep_author_##]</a></cite></li>
+					</ul>
+					<div class="desc-content">[##_page_rep_desc_##]</div>
+				</article>
+			</section>
+			</s_page_rep>
+
+			[##_article_protected_##]
+
+
+			[##_article_rep_##]
+
+			[##_paging_##]
+
+		</div>
+		<div class="col-md-3 column">
+			<aside id="sidebar">
+			<!-- Sidebar (first) -->
+			
+				<!-- Name card widget -->
+					<section id="namecardWidget" class="widget">
+						<article class="description">
+						<div class="breadcrumb">
+							<img src="http://mypages.co.kr/resources/image/spacer.gif" alt="namecard image" class="img-thumbnail" />
+							<p class="nameDesc"></p>
+							<p class="blogger">by <span class="label label-default">toughskg</span></p>
+						</div>
+						</article>
+					</section>
+				
+				<!-- Search widget -->
+				<section id="searchWidget" class="widget">
+					[##_search_##]
+				</section>
+			
+				<!-- Calendar widget -->
+				<section id="calendarWidget" class="widget">
+					<ol id="calendarW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <h4><i class="fa fa-calendar"></i> Calendar</h4>
+						</li>
+						<li class="list-group-item list-item">
+							[##_calendar_##]
+						</li>
+					</ol>
+				</section>
+			
+			<!-- Tag Cloud widget -->
+				<section id="tagcloudWidget" class="widget">
+					<ol id="tagcloudW" class="list-group">
+						<li class="list-group-item active-default">
+						    <h4><i class="fa fa-cloud"></i> Tag Cloud</h4>
+						</li>
+						<li class="list-group-item list-item">
+							<ul>
+								[##_random_tags_##]
+							</ul>
+						</li>
+					</ol>
+				</section>
+			
+				<!-- Notices -->
+				[##_rct_notice_##]
+			
+				<!-- Post archive widget -->
+				<section id="archiveWidget" class="widget">
+					<ol id="archiveW" class="list-group">
+						<li class="list-group-item active-success">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse04"><h4><i class="fa fa-paste"></i> Archives</h4></a>
+						</li>
+						<div id="collapse04" class="panel-collapse collapse">
+							[##_archive_rep_##]
+						</div>
+					</ol>
+				</section>
+			
+				<!-- Categories widget -->
+				<section id="categoryWidget" class="widget">
+					<ol id="categoryW" class="list-group">
+						<li class="list-group-item active-success">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse05"><h4><i class="fa fa-list-alt"></i> Categories</h4></a>
+						</li>
+						<div id="collapse05" class="panel-collapse collapse in">
+							<li class="list-group-item list-item">
+								[##_category_list_##]
+							</li>
+						</div>
+					</ol>
+				</section>
+			
+				<!-- Recent posts widget -->
+				<section id="recentPostWidget" class="widget">
+					[##_rctps_##]
+				</section>
+			
+				<!-- Recent comments widget -->
+				<section id="recentCommentsWidget" class="widget">
+					<ol id="recentCommentsW" class="list-group">
+						<li class="list-group-item active-info">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse07"><h4><i class="fa fa-comment-o"></i> Recent Comments</h4></a>
+						</li>
+						<div id="collapse07" class="panel-collapse collapse in">
+							[##_rctrp_##]
+						</div>
+					</ol>
+				</section>
+			
+				<!-- Recent trackbacks widget -->
+				<section id="recentTrackbacksWidget" class="widget">
+					<ol id="recentTrackbacksW" class="list-group">
+						<li class="list-group-item active-info">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse08"><h4><i class="fa fa-chain"></i> Recent Trackbacks</h4></a>
+						</li>
+						<div id="collapse08" class="panel-collapse collapse">
+							[##_rcttb_##]
+						</div>
+					</ol>
+				</section>
+			
+				<!-- Author list widget -->
+				<section id="authorWidget" class="widget">
+					<ol id="authorW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse09"><h4><i class="fa fa-user"></i> Authors</h4></a>
+						</li>
+						<div id="collapse09" class="panel-collapse collapse">
+							[##_author_rep_##]
+						</div>
+					</ol>
+				</section>
+			
+				<!-- Bookmarks widget -->
+				<section id="bookmarkWidget" class="widget">
+					<ol id="bookmarkW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10"><h4><i class="fa fa-bookmark"></i> Bookmarks</h4></a>
+						</li>
+						<div id="collapse10" class="panel-collapse collapse">
+							<li class="list-group-item list-item">
+								[##_link_list_##]
+							</li>
+						</div>
+					</ol>
+				</section>
+			
+				<!-- Bookmarks widget -->
+				<section id="countWidget" class="widget">
+					<ol id="countW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <h4><i class="fa fa-leaf"></i> Site Stats</h4>
+						</li>
+						<li class="list-group-item list-item">
+							<dl>
+								<dt>Total hits</dt>
+								<dd>[##_count_total_##]</dd>
+								<dt>Today</dt>
+								<dd>[##_count_today_##]</dd>
+								<dt>Yesterday</dt>
+								<dd>[##_count_yesterday_##]</dd>
+							</dl>
+						</li>
+					</ol>
+				</section>
+			
+
+			<!-- Sidebar (second) -->
+			
+				<!-- Textcube Banner widget -->
+				<section id="textcubeBannerWidget" class="widget">
+					<ol id="textcubeBannerW" class="list-group">
+						<li class="list-group-item list-item">
+							<a href="http://www.textcube.org" onclick="window.open(this.href); return false"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/banner_textcube_120-60.jpg" alt="Textcube" /></a>
+						</li>
+					</ol>
+				</section>
+			
+				<!-- Textcube Banner widget -->
+				<section id="subscriptionWidget" class="widget">
+					<ol id="subscriptionW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <h4><i class="fa fa-rss"></i> Feeds</h4>
+						</li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/rss" class="rss" rel="alternate" type="application/rss+xml">Subscribe to <abbr title="Really Simple Syndication">RSS</abbr> articles</a></li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/rss/response" class="rss response feed" rel="alternate" type="application/rss+xml"><span>Subscribe to RSS responses</span></a></li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/atom" class="atom feed" rel="alternate" type="application/atom+xml"><span>Subscribe to ATOM articles</span></a></li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/atom/response" class="atom response feed" rel="alternate" type="application/atom+xml"><span>Subscribe to ATOM responses</span></a></li>
+					</ol>
+				</section>
+			
+			</aside>
+		</div>
+	</div>
+	<footer>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="panel panel-default">
+				<!-- Default panel contents -->
+				<div class="panel-heading">
+					<address class="blogger"><i class="fa fa-leaf"></i> <strong>toughskg</strong>'s site.</address>
+					<i class="fa fa-heart-o"></i> <span> </span>
+				</div>
+				<div class="panel-body">
+					Powered by <a href="http://www.textcube.org" onclick="window.open(this.href); return false">Textcube 1.10.7 : Tempo primo</a>,
+					Persona skin designed by <a href="http://forest.nubimaru.com">inureyes</a> edited by <a href="http://blog.2pink.net">LonnieNa</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer>
+	<div id="back_top"><i class="fa fa-angle-up"></i></div>
+</div>
+<!-- Load Extra JS-->
+<script src="http://mypages.co.kr/skin/blog/periwinkle/js/style.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!--<script src="http://mypages.co.kr/skin/blog/periwinkle/js/bootstrap.min.js"></script>-->
+<script src="http://mypages.co.kr/skin/blog/periwinkle/js/jquery-ui-1.10.3.custom.min.js"></script>
+<!--<script src="http://mypages.co.kr/skin/blog/periwinkle/js/jquery.ui.touch-punch.min.js"></script>-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.1/js/bootstrap-switch.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-tagsinput/1.3.3/jquery.tagsinput.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.0.7/jquery.placeholder.min.js"></script>
+<script src="http://mypages.co.kr/skin/blog/periwinkle/js/flatui-checkbox.js"></script>
+<script src="http://mypages.co.kr/skin/blog/periwinkle/js/flatui-radio.js"></script>
+<!--<script src="http://mypages.co.kr/skin/blog/periwinkle/js/bootstrap-select.js"></script>-->
+<!--<script src="http://mypages.co.kr/skin/blog/periwinkle/js/bootstrap-switch.js"></script>-->
+<!--<script src="http://mypages.co.kr/skin/blog/periwinkle/js/jquery.tagsinput.js"></script>-->
+<!--<script src="http://mypages.co.kr/skin/blog/periwinkle/js/jquery.placeholder.js"></script>-->
+[##_SKIN_body_end_##]</body>
+[##_SKIN_html_end_##]</html>
+";s:4:"skin";N;s:4:"list";s:483:"  <!-- List section ................................................................. -->
+			<section class="list search">
+				<header class="page-header">
+[##_SKIN_head_start_##]					<h4><i class="fa fa-search"></i> [##_list_count_##] Entries : Results for <small><i class="fa fa-quote-left"></i></small> [##_list_conform_##] <small><i class="fa fa-quote-right"></i></small></h4>
+				</header>
+				<article class="list-group">
+					[##_list_rep_##]
+				</article>
+			</section>
+			";s:8:"listItem";s:290:"
+					<dl class="list-group-item">
+						<dt class="title"><a href="[##_list_rep_link_##]">[##_list_rep_title_##] </a> <span class="badge">[##_list_rep_rp_cnt_##]</span></dt>
+						<dd class="regdate"><i class="fa fa-clock-o"></i> <time>[##_list_rep_regdate_##]</time></dd>
+					</dl>
+					";s:11:"commentList";s:489:" <!-- Replies List section ........................................................ -->
+			<section class="list comment">
+				<header class="page-header">
+[##_SKIN_head_start_##]					<h4><i class="fa fa-search"></i> [##_rplist_count_##] Comments : Results for <small><i class="fa fa-quote-left"></i></small> [##_rplist_conform_##] <small><i class="fa fa-quote-right"></i></small></h4>
+				</header>
+				<article class="list-group">
+					[##_rplist_rep_##]
+				</article>
+			</section>
+			";s:15:"commentListItem";s:315:"
+					<dl class="list-group-item">
+						<dt class="content"><a href="[##_rplist_rep_link_##]">[##_rplist_rep_body_##]</a></dt>
+						<dd class="regdate"><i class="fa fa-clock-o"></i> <time>[##_rplist_rep_regdate_##]</time></dd>
+						<dd class="author"><cite>by [##_rplist_rep_name_##]</cite></dd>
+					</dl>
+					";s:3:"rss";N;s:8:"rss_date";N;s:7:"rss_rep";N;s:11:"keywordItem";s:114:"
+						<li><a href="#void" onclick="[##_onclick_keyword_##]"  class="tag_btn">[##_keyword_label_##]</a></li>
+					";s:12:"keywordGroup";N;s:7:"keyword";s:414:" <!-- Keyword list .......................................................... -->
+			<section class="keyword entry_post panel panel-default">
+				<header>
+[##_SKIN_head_start_##]					<hgroup class="page-header">
+						<h2><i class="fa fa-flag-o"></i> Keywords <small>My keywords</small></h2>
+					</hgroup>
+				</header>
+				<article>
+					<ul>
+					[##_keyword_rep_##]
+					</ul>
+				</article>
+			</section>
+			";s:10:"noticeItem";s:817:" <!-- Notice and pages section ............................................ -->
+			<section class="notice pages post notice_post panel panel-default">
+				<header>
+[##_SKIN_head_start_##]					<hgroup class="page-header">
+						<h3><i class="fa fa-check-circle-o"></i><a href="[##_notice_rep_link_##]"> [##_notice_rep_title_##]</a></h3>
+					</hgroup>
+				</header>
+				<article>
+					<ul class="breadcrumb admin">
+						<li class="date"><span class="label label-success"><i class="fa fa-clock-o"></i> Posted</span> <time>[##_notice_rep_date_##]</time></li>
+						<li class="category"><span class="label label-default"><i class="glyphicon glyphicon-list"></i> Filed under</span> <a href="/notice">Notice</a></li>
+					</ul>
+					<div class="desc-content">[##_notice_rep_desc_##]</div>
+				</article>
+			</section>
+			";s:12:"recentNotice";s:282:"
+				<section id="recentNoticeWidget" class="widget">
+					<ol id="recentNoticeW" class="list-group">
+						<li class="list-group-item active-danger">
+						    <h4><i class="fa fa-thumb-tack"></i> Notices</h4>
+						</li>
+						[##_rct_notice_rep_##]
+					</ol>
+				</section>
+				";s:16:"recentNoticeItem";s:256:"
+						<li class="list-group-item list-item">
+							<a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a>
+							<span class="author"><cite>By <a href="[##_notice_rep_author_link_##]">[##_notice_rep_author_##]</a></cite></span>
+						</li>
+						";s:8:"locative";s:481:" <!-- Location Log section .......................................................... -->
+			<section class="location entry_post panel panel-default">
+				<header>
+[##_SKIN_head_start_##]					<hgroup class="page-header">
+						<h2><i class="fa fa-map-marker"></i> Log via location <small>Where posts are related to</small></h2>
+					</hgroup>
+				</header>
+				<article>
+					<dl>
+					[##_local_spot_rep_##]
+					[##_local_info_rep_##]
+					</dl>
+				</article>
+			</section>
+			";s:12:"locativeSpot";s:127:"
+						<dt style="margin-left: [##_local_spot_depth_##]px;" class="spot_[##_local_spot_depth_##]">[##_local_spot_##]</dt>
+					";s:13:"locativeEntry";s:197:"
+						<dd style="margin-left: [##_local_info_depth_##]px;">
+							<a href="[##_local_info_link_##]">[##_local_info_title_##]</a>
+							<cite>by [##_local_info_author_##]</cite>
+						</dd>
+					";s:5:"guest";s:571:" <!-- Guestbook section .............................................................-->
+			<section class="entry_post panel panel-default">
+				<section class="guestbook write">
+					<header>
+[##_SKIN_head_start_##]						<hgroup class="page-header">
+							<h2>
+								<i class="fa fa-file-text-o"></i> Guestbook <small>Leave your greetings</small>
+							</h2>
+						</hgroup>
+					</header>
+					<article>
+						[##_guest_input_form_##]
+					</article>
+				</section>
+
+				<section class="guestbook logs">
+				[##_guest_container_##]
+				</section>
+			</section>
+			";s:9:"guestForm";s:396:"
+						<fieldset>
+
+						[##_guest_member_##]
+							<div class="form-group">
+								<textarea class="form-control" name="[##_guest_textarea_body_##]" rows="3" required="required" placeholder="Your Message"></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-primary submit button" value="Submit" onclick="[##_guest_onclick_submit_##]">Submit</button>
+						</fieldset>
+						";s:10:"guestGuest";s:1317:"
+							<div class="form-inline">
+								<div class="form-group">
+									<label for="[##_guest_input_name_##]">Your Name <em>(required)</em></label>
+									<input type="text" class="form-control guest-input-name input-sm" id="[##_guest_input_name_##]" name="[##_guest_input_name_##]" value="[##_guest_name_##]" maxlength="20" required="required" placeholder="Your Name" />
+								</div>
+
+								<div class="form-group">
+									<label for="[##_guest_input_password_##]">Password <em>(required)</em></label>
+									<input type="password" class="form-control input-sm" id="[##_guest_input_password_##]" name="[##_guest_input_password_##]" value="[##_guest_password_##]" required="required" placeholder="Password" />
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="[##_guest_input_homepage_##]">Your Website Address</label>
+								<input type="text" class="form-control input-sm" id="[##_guest_input_homepage_##]" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" placeholder="Your Address" />
+							</div>
+
+								<label class="checkbox" for="[##_guest_input_is_secret_##]">
+								<input type="checkbox" id="[##_guest_input_is_secret_##]" name="[##_guest_input_is_secret_##]" value="" data-toggle="checkbox" /><span>Leave as secret</span></label>
+							";s:11:"guestMember";s:33:"
+							[##_guest_form_##]
+						";s:14:"guestContainer";s:106:"
+					<article>
+						<dl class="guestbook logs">
+						[##_guest_rep_##]
+						</dl>
+					</article>
+				";s:9:"guestItem";s:1124:"
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<dt id="[##_guest_rep_id_##]" class="[##_guest_rep_class_##]">
+									<span class="vcard">[##_guest_rep_name_##]</span>
+								</dt>
+								<dd class="content">
+									<dl class="comment-link">
+										<dd class="regdate label label-default"><i class="fa fa-clock-o"></i> <time>[##_guest_rep_date_##]</time></dd>
+										<dd class="permalink"><a href="[##_guest_rep_link_##]" title="Permanent link" class="button label label-info"><i class="fa fa-chain"></i> Permalink</a></dd>
+										<dd class="delete"><a href="#" onclick="[##_guest_rep_onclick_delete_##]" label="Modify/Delete" class="button label label-danger"><abbr title="Modify or Delete"><i class="fa fa-check-circle-o"></i> M/D</abbr></a></dd>
+										<dd class="write"><a href="#" onclick="[##_guest_rep_onclick_reply_##]" label="Write reply" class="button label label-success"><i class="fa fa-share-square-o"></i> Reply</a></dd>
+									</dl>
+									<p>[##_guest_rep_desc_##]</p>
+								</dd>
+							</div>
+						</div>
+							[##_guest_reply_container_##]
+						";s:17:"guestSubContainer";s:39:"
+							[##_guest_reply_rep_##]
+							";s:12:"guestSubItem";s:952:"
+							<dd class="reply panel panel-default">
+								<dl class="reply panel-body">
+									<dt id="[##_guest_rep_id_##]" class="[##_guest_rep_class_##]" label="Reply">
+										<span class="vcard">[##_guest_rep_name_##]</span>
+									</dt>
+									<dd class="content">
+										<dl class="comment-link">
+											<dd class="regdate label label-default"><i class="fa fa-clock-o"></i> <time>[##_guest_rep_date_##]</time></dd>
+											<dd class="permalink"><a href="[##_guest_rep_link_##]" title="Permanent link" class="button label label-info"><i class="fa fa-chain"></i> Permalink</a></dd>
+											<dd class="delete"><a href="#" onclick="[##_guest_rep_onclick_delete_##]" title="Modify/Delete" class="button label label-danger"><abbr title="Modify or Delete"><i class="fa fa-check-circle-o"></i> M/D</abbr></a></dd>
+											<dd>
+										</dl>
+										<p>[##_guest_rep_desc_##]</p>
+									</dd>
+								</dl>
+							</dd>
+							";s:6:"search";s:502:"
+						<!--<div class="navbar-form" role="search">-->
+						<div class="input-group">
+							<input type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }" class="form-control search" />
+							<span class="input-group-btn">
+								<button class="btn btn-info" type="button" onclick="[##_search_onclick_submit_##]" alt="Search" value="Submit"><i class="fa fa-search"></i>Find</button>
+							</span>
+						</div>
+					";s:11:"recentEntry";s:358:"
+					<ol id="recentEntries" class="list-group">
+						<li class="list-group-item active-info">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse06"><h4><i class="fa fa-edit"></i> Recent Posts</h4></a>
+						</li>
+						<div id="collapse06" class="panel-collapse collapse in">
+							[##_rctps_rep_##]
+						</div>
+					</ol>
+					";s:14:"recentComments";N;s:15:"recentTrackback";s:33:"
+							[##_rcttb_rep_##]
+							";s:10:"management";s:863:" <!-- Administration-only menus for post .................................. -->
+						<menu class="breadcrumb admin">
+							<li><strong class="post_label">[##_s_ad_s1_label_##]</strong> Post. <a onclick="[##_s_ad_s2_onclick_##]" label="[##_s_ad_s2_label_##]" class="button">(Change)</a></li>
+							<li><a href="[##_s_ad_m_link_##]" class="button">Modify</a> <a href="#" onclick="[##_s_ad_m_onclick_##]" class="button">Modify (New window)</a></li>
+							<li><a onclick="[##_s_ad_t_onclick_##]" class="button">Send trackback</a></li>
+							<li><a onclick="[##_s_ad_d_onclick_##]" class="button">Delete</a></li>
+							<dl class="information">
+								<dd class="modified date"><span class="label label-success"><i class="glyphicon glyphicon-calendar"></i> Last updated</span> <time>[##_article_rep_date_modified_##]</time></dd>
+							</dl>
+						</menu>
+						";s:14:"entryProtected";s:1469:" <!-- Protected Posts section ...................................... -->
+			<section class="protected post entry_post panel panel-default">
+				<header class="page-header">
+[##_SKIN_head_start_##]					<h3><a href="[##_article_rep_link_##]"><i class="fa fa-pencil-square-o"></i> [##_article_rep_title_##]</a></h3>
+				</header>
+				<article>
+					<ul class="breadcrumb admin">
+						<li class="date"><span class="label label-success"><i class="fa fa-clock-o"></i> Posted</span> <time>[##_article_rep_date_##]</time></li>
+						<li class="author"><span class="label label-default"><i class="glyphicon glyphicon-pencil"></i> Author</span> <cite><a href="[##_article_rep_author_link_##]">[##_article_rep_author_##]</a></cite></li>
+					</ul>
+					<div class="row protected-content well">
+					<p>Please type the <em>correct password</em> to view this content.</p>
+						<div class="col-md-4 col-sm-3 col-xs-1"></div>
+						<div class="input-group col-md-4 col-sm-6 col-xs-9">
+							<input id="[##_article_password_##]" class="form-control" name="[##_article_password_##]" type="password" onkeydown="if (event.keyCode == 13) [##_article_dissolve_##]" placeholder="Password" />
+							<span class="input-group-btn">
+								<button type="button" class="btn btn-primary submit button" value="Submit" onclick="[##_article_dissolve_##]" />OK</button>
+							</span>
+						</div>
+						<div class="col-md-4 col-sm-3" col-xs-2></div>
+					</div>
+				</article>
+			</section>
+			";s:5:"entry";s:3618:"<div class="hentry">
+ <!-- Post section ....................................................... -->
+			<section class="entry_post panel panel-default">
+				<section class="entry post [##_article_rep_category_body_id_##]">
+					<header>
+[##_SKIN_head_start_##]					<div class="page-header">
+						<h3>
+							<i class="fa fa-pencil-square-o"></i><a href="[##_article_rep_link_##]" class="entry-title" rel="bookmark" title="[##_article_rep_title_##]"> [##_article_rep_title_##]</a>
+						</h3>
+					</div>
+					</header>
+					<article class="post [##_article_rep_category_body_id_##]">
+						[##_ad_div_##]
+						<dl class="well well-sm information">
+							<dd class="posted date"><span class="label label-success"><i class="fa fa-clock-o"></i> Posted</span> <time>[##_article_rep_date_##]</time></dd>
+							<dd class="category"><span class="label label-default"><i class="glyphicon glyphicon-list"></i> Filed under</span> <a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></dd>
+						</dl>
+						<div class="desc-content entry-content">[##_article_rep_desc_##]</div>
+					<div style="display:none">
+					<abbr class="updated" title="[##_article_rep_microformat_updated_##]">[##_article_rep_date_##]</abbr>
+					<abbr class="published" title="[##_article_rep_microformat_published_##]">[##_article_rep_date_##]</abbr>
+					</div>
+					</article>
+				</section>
+				<section class="summary">
+					<article>
+						<dl class="well well-sm information">
+							<dd class="author"><span class="label label-info"><i class="glyphicon glyphicon-pencil"></i> Posted by</span> <cite><a href="[##_article_rep_author_link_##]">[##_article_rep_author_##]</a></cite></dd>
+							<dd class="category rss feed"><a href="[##_article_rep_category_rssurl_##]" onclick="window.open(this.href); return false"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/rss_12.png" alt="RSS 2.0 feed" /></a></dd>
+							<dd class="category atom feed"><a href="[##_article_rep_category_atomurl_##]" onclick="window.open(this.href); return false"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/atom_12.png" alt="ATOM 1.0 feed" /></a></dd>
+							[##_tag_label_##]
+						</dl>
+						<dl class="response">
+							<dt class="response">Response</dt>
+							<dt class="feed">You can track responses via RSS / ATOM feed</dt>
+							<dd class="rss feed"><a href="[##_article_rep_response_rssurl_##]" onclick="window.open(this.href); return false"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/rss_12.png" alt="RSS 2.0 feed" /></a></dd>
+							<dd class="atom feed"><a href="[##_article_rep_response_atomurl_##]" onclick="window.open(this.href); return false"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/atom_12.png" alt="ATOM 1.0 feed" /></a></dd>
+							<dd class="response">
+								<menu>
+								<ul class="list-group row">
+									<li class="list-group-item col-xs-5 col-md-3">
+										<a id="[##_article_rep_tb_cnt_id_##]" href="#tb" onclick="[##_article_rep_tb_link_##]" label="Show/hide responses" class="button">
+										<i class="glyphicon glyphicon-link"> </i>
+										[##_tb_count_##]
+										</a>
+									</li>
+									<li class="list-group-item col-xs-5 col-md-3">
+										<a id="[##_article_rep_rp_cnt_id_##]" href="#rp" onclick="[##_article_rep_rp_link_##]" title="Show/hide commments" class="button">
+										<i class="glyphicon glyphicon-leaf"> </i>
+										[##_rp_count_##]
+										</a>
+									</li>
+								</ul>
+								</menu>
+							</dd>
+						</dl>
+					</article>
+				</section>
+
+				[##_tb_##]
+				[##_rp_##]
+			</section>
+			
+</div>";s:6:"paging";s:440:" <!-- Paging  .................................................................. -->
+				<nav class="paging">
+				 <div class="pagination">
+					<ul>
+						<li class="previous">
+							<a [##_prev_page_##] title="Previous page" class="fui-arrow-left"></a>
+						</li>
+						[##_paging_rep_##]
+						<li class="next">
+							<a [##_next_page_##] title="Next page" class="fui-arrow-right"></a>
+						</li>
+					</ul>
+				</div>
+				</nav>
+			";s:10:"pagingItem";s:103:"
+						<li><a [##_paging_rep_link_##] class="middle button">[##_paging_rep_link_num_##]</a></li>
+						";s:7:"archive";s:203:"
+							<li class="list-group-item list-item">
+								<a href="[##_archive_rep_link_##]">[##_archive_rep_date_##] </a>
+								<span class="count">([##_archive_rep_count_##])</span>
+							</li>
+							";s:4:"s_ps";N;s:8:"s_ps_rep";N;s:7:"comment";s:137:" <!-- Comments  ............................................................. -->
+				[##_rp_container_##]
+				[##_rp_input_form_##]
+				";s:12:"commentCount";s:89:"
+											Comments<span class="navbar-new">[##_article_rep_rp_cnt_##]</span>
+										";s:11:"commentForm";s:730:" <!-- Write form for comments  ...................................... -->
+				<section class="write comments">
+					<header>
+[##_SKIN_head_start_##]						<hgroup class="page-header">
+							<h3><i class="fa fa-file-text-o"></i> Comments <small>Leave your comment</small></h2>
+						</hgroup>
+					</header>
+					<article>
+					<fieldset>
+					[##_rp_member_##]
+						<div class="form-group">
+							<textarea class="form-control" name="[##_rp_input_comment_##]" rows="3" required="required" placeholder="Your Message"></textarea>
+						</div>
+
+						<button type="submit" class="btn btn-primary submit button" value="Submit" onclick="[##_rp_onclick_submit_##]">Submit</button>
+					</fieldset>
+					</article>
+				</section>
+				";s:12:"commentGuest";s:1430:"
+						<div class="form-inline">
+							<div class="form-group">
+								<label for="[##_rp_input_name_##]_[##_article_rep_id_##]">Your Name <em>(required)</em></label>
+								<input type="text" class="form-control input-sm" id="[##_rp_input_name_##]_[##_article_rep_id_##]" name="[##_rp_input_name_##]" value="[##_guest_name_##]" maxlength="20" required="required" placeholder="Your Name" />
+							</div>
+							<div class="form-group">
+								<label for="[##_rp_input_password_##]_[##_article_rep_id_##]">Password <em>(required)</em></label>
+								<input type="password" class="form-control input-sm" id="[##_rp_input_password_##]_[##_article_rep_id_##]" name="[##_rp_input_password_##]" value="[##_rp_admin_check_##]" required="required" placeholder="Password" />
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="[##_rp_input_homepage_##]_[##_article_rep_id_##]">Your Website Address</label>
+							<input type="text" class="form-control input-sm"  id="[##_rp_input_homepage_##]_[##_article_rep_id_##]" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]" placeholder="Your Address" />
+						</div>
+							<label class="checkbox" for="[##_rp_input_is_secret_##]_[##_article_rep_id_##]">
+							<input type="checkbox" id="[##_rp_input_is_secret_##]_[##_article_rep_id_##]" name="[##_rp_input_is_secret_##]" value="" data-toggle="checkbox" /><span>Leave as secret</span></label>
+						";s:13:"commentMember";s:29:"
+						[##_rp_guest_##]
+					";s:16:"commentContainer";s:301:"
+				<section class="comments">
+					<header>
+[##_SKIN_head_start_##]						<hgroup class="page-header">
+							<h3><i class="fa fa-copy"></i> Comments List</h3>
+						</hgroup>
+					</header>
+					<article>
+					<dl class="comments">
+					[##_rp_rep_##]
+					</dl>
+					</article>
+				</section>
+				";s:11:"commentItem";s:1091:"
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<dt id="[##_rp_rep_id_##]" class="[##_rp_rep_class_##]">
+								<cite><strong class="vcard">[##_rp_rep_name_##]</strong></cite>
+							</dt>
+							<dd class="content">
+								<dl class="comment-link">
+									<dd class="regdate label label-default"><i class="fa fa-clock-o"></i> <time>[##_rp_rep_date_##]</time></dd>
+									<dd class="permalink"><a href="[##_rp_rep_link_##]" title="Permanent link" class="button label label-info"><i class="fa fa-chain"></i> Permalink</a></dd>
+									<dd class="delete"><a href="#" onclick="[##_rp_rep_onclick_delete_##]" label="Modify/Delete" class="button label label-danger"><abbr title="Modify or Delete"><i class="fa fa-check-circle-o"></i> M/D</abbr></a></dd>
+									<dd class="write"><a href="#" onclick="[##_rp_rep_onclick_reply_##]" label="Write reply" class="button label label-success"><i class="fa fa-share-square-o"></i> Reply</a></dd>
+								</dl>
+								<p>[##_rp_rep_desc_##]</p>
+							</dd>
+						</div>
+					</div>
+						[##_rp2_container_##]
+					";s:19:"commentSubContainer";s:87:"
+						<dd class="reply panel panel-default">
+							[##_rp2_rep_##]
+						</dd>
+						";s:14:"commentSubItem";s:846:"
+							<dl class="reply panel-body">
+								<dt id="[##_rp_rep_id_##]" class="[##_rp_rep_class_##]">
+									<cite><strong class="vcard">[##_rp_rep_name_##]</strong></cite>
+								</dt>
+								<dd class="content">
+									<dl class="comment-link">
+										<dd class="regdate label label-default"><i class="fa fa-clock-o"></i> <time>[##_rp_rep_date_##]</time></dd>
+										<dd class="permalink"><a href="[##_rp_rep_link_##]" title="Permanent link" class="button label label-info"><i class="fa fa-chain"></i> Permalink</a></dd>
+										<dd class="delete"><a href="#" onclick="[##_rp_rep_onclick_delete_##]" title="Modify/Delete" class="button label label-danger"><abbr title="Modify or Delete"><i class="fa fa-check-circle-o"></i> M/D</abbr></a></dd>
+									</dl>
+									<p>[##_rp_rep_desc_##]</p>
+								</dd>
+							</dl>
+							";s:10:"trackbacks";s:508:" <!-- Trackback lists ....................................................... -->
+				<section class="trackbacks">
+					<article>
+						<dl class="breadcrumb">
+							<dt class="url"><dfn>Trackback <abbr title="Uniform Resource Locator">URL</abbr></dfn></dt>
+							<dd class="url">[##_tb_address_##]</dd>
+							<dt class="atom feed"><dfn>Trackback ATOM Feed</dfn></dt>
+							<dd class="atom feed">[##_article_rep_tb_atomurl_##]</dd>
+						</dl>
+					</article>
+				</section>
+				[##_tb_container_##]
+				";s:18:"trackbackContainer";s:334:" <!-- Trackback list container …................................. -->
+				<section class="trackbacks list">
+					<header class="page-header">
+[##_SKIN_head_start_##]						<h3><i class="fa fa-copy"></i> Trackbacks List</h3>
+					</header>
+					<article>
+						<dl>
+					[##_tb_rep_##]
+						</dl>
+					</article>
+				</section>
+				";s:9:"trackback";s:905:"
+							<div class="panel panel-default">
+								<dt id="[##_tb_rep_id_##]" class="page-header panel-body">
+									<h6><a href="[##_tb_rep_url_##]" onclick="window.open(this.href); return false" rel="external nofollow"><i class="fa fa-bookmark-o"></i> [##_tb_rep_title_##]</a></h6>
+								</dt>
+								<dd class="content">
+									<dl class="comment-link">
+										<dd class="trackbacked url"><span class="label label-success"><i class="fa fa-chain"></i> Tracked from</span> <cite>[##_tb_rep_site_##]</cite></dd>
+										<dd class="regdate label label-default"><i class="fa fa-clock-o"></i> <time>[##_tb_rep_date_##]</time></dd>
+										<dd class="delete label label-danger"><a href="#" onclick="[##_tb_rep_onclick_delete_##]; return false" title="Delete"><i class="fa fa-check-circle-o"></i> Delete</a></dd>
+									</dl>
+									<p>[##_tb_rep_desc_##]</p>
+								</dd>
+							</div>
+					";s:14:"trackbackCount";s:91:"
+											Trackbacks<span class="navbar-new">[##_article_rep_tb_cnt_##]</span>
+										";s:8:"tagLabel";s:160:"
+							<dd class="tag">
+								<span class="label label-primary"><i class="glyphicon glyphicon-tag"></i> Tag</span> [##_tag_label_rep_##]
+							</dd>
+							";s:7:"siteTag";s:442:" <!-- Tag list section ................................................................ -->
+			<section class="tag entry_post panel panel-default">
+				<header>
+[##_SKIN_head_start_##]					<hgroup class="page-header">
+						<h2><i class="fa fa-tags"></i> Tag Cloud <small>Keywords with size based on popularity</small></h2>
+					</hgroup>
+				</header>
+				<article>
+					<ul>
+					[##_tag_rep_##]
+					</ul>
+				</article>
+			</section>
+			";s:11:"siteTagItem";s:95:"
+						<li><a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a></li>
+					";s:10:"randomTags";s:100:"
+								<li><a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a></li>
+								";s:10:"s_link_rep";N;s:9:"pageError";N;s:9:"pageTitle";s:27:" :: [##_page_post_title_##]";s:3:"aux";N;s:19:"sidebarBasicModules";a:2:{i:0;a:13:{i:0;a:2:{s:5:"title";s:16:"Name card widget";s:4:"body";s:425:"
+				<!-- Name card widget -->
+					<section id="namecardWidget" class="widget">
+						<article class="description">
+						<div class="breadcrumb">
+							<img src="http://mypages.co.kr/resources/image/spacer.gif" alt="namecard image" class="img-thumbnail" />
+							<p class="nameDesc"></p>
+							<p class="blogger">by <span class="label label-default">toughskg</span></p>
+						</div>
+						</article>
+					</section>
+				";}i:1;a:2:{s:5:"title";s:13:"Search widget";s:4:"body";s:622:"
+				<!-- Search widget -->
+				<section id="searchWidget" class="widget">
+					<s_search>
+						<!--<div class="navbar-form" role="search">-->
+						<div class="input-group">
+							<input type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }" class="form-control search" />
+							<span class="input-group-btn">
+								<button class="btn btn-info" type="button" onclick="[##_search_onclick_submit_##]" alt="Search" value="Submit"><i class="fa fa-search"></i>Find</button>
+							</span>
+						</div>
+					</s_search>
+				</section>
+			";}i:2;a:2:{s:5:"title";s:15:"Calendar widget";s:4:"body";s:351:"
+				<!-- Calendar widget -->
+				<section id="calendarWidget" class="widget">
+					<ol id="calendarW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <h4><i class="fa fa-calendar"></i> Calendar</h4>
+						</li>
+						<li class="list-group-item list-item">
+							[##_calendar_##]
+						</li>
+					</ol>
+				</section>
+			";}i:3;a:2:{s:5:"title";s:16:"Tag Cloud widget";s:4:"body";s:493:"
+			<!-- Tag Cloud widget -->
+				<section id="tagcloudWidget" class="widget">
+					<ol id="tagcloudW" class="list-group">
+						<li class="list-group-item active-default">
+						    <h4><i class="fa fa-cloud"></i> Tag Cloud</h4>
+						</li>
+						<li class="list-group-item list-item">
+							<ul>
+								<s_random_tags>
+								<li><a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a></li>
+								</s_random_tags>
+							</ul>
+						</li>
+					</ol>
+				</section>
+			";}i:4;a:2:{s:5:"title";s:7:"Notices";s:4:"body";s:612:"
+				<!-- Notices -->
+				<s_rct_notice>
+				<section id="recentNoticeWidget" class="widget">
+					<ol id="recentNoticeW" class="list-group">
+						<li class="list-group-item active-danger">
+						    <h4><i class="fa fa-thumb-tack"></i> Notices</h4>
+						</li>
+						<s_rct_notice_rep>
+						<li class="list-group-item list-item">
+							<a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a>
+							<span class="author"><cite>By <a href="[##_notice_rep_author_link_##]">[##_notice_rep_author_##]</a></cite></span>
+						</li>
+						</s_rct_notice_rep>
+					</ol>
+				</section>
+				</s_rct_notice>
+			";}i:5;a:2:{s:5:"title";s:19:"Post archive widget";s:4:"body";s:661:"
+				<!-- Post archive widget -->
+				<section id="archiveWidget" class="widget">
+					<ol id="archiveW" class="list-group">
+						<li class="list-group-item active-success">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse04"><h4><i class="fa fa-paste"></i> Archives</h4></a>
+						</li>
+						<div id="collapse04" class="panel-collapse collapse">
+							<s_archive_rep>
+							<li class="list-group-item list-item">
+								<a href="[##_archive_rep_link_##]">[##_archive_rep_date_##] </a>
+								<span class="count">([##_archive_rep_count_##])</span>
+							</li>
+							</s_archive_rep>
+						</div>
+					</ol>
+				</section>
+			";}i:6;a:2:{s:5:"title";s:17:"Categories widget";s:4:"body";s:516:"
+				<!-- Categories widget -->
+				<section id="categoryWidget" class="widget">
+					<ol id="categoryW" class="list-group">
+						<li class="list-group-item active-success">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse05"><h4><i class="fa fa-list-alt"></i> Categories</h4></a>
+						</li>
+						<div id="collapse05" class="panel-collapse collapse in">
+							<li class="list-group-item list-item">
+								[##_category_list_##]
+							</li>
+						</div>
+					</ol>
+				</section>
+			";}i:7;a:2:{s:5:"title";s:19:"Recent posts widget";s:4:"body";s:799:"
+				<!-- Recent posts widget -->
+				<section id="recentPostWidget" class="widget">
+					<s_rctps>
+					<ol id="recentEntries" class="list-group">
+						<li class="list-group-item active-info">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse06"><h4><i class="fa fa-edit"></i> Recent Posts</h4></a>
+						</li>
+						<div id="collapse06" class="panel-collapse collapse in">
+							<s_rctps_rep>
+							<li class="list-group-item list-item"><a href="[##_rctps_rep_link_##]">
+									[##_rctps_rep_title_##]</a> <span class="count">[##_rctps_rep_rp_cnt_##]</span>
+									<span class="author">by <cite><a href="[##_rctps_rep_author_link_##]">[##_rctps_rep_author_##]</a></cite></span></li>
+							</s_rctps_rep>
+						</div>
+					</ol>
+					</s_rctps>
+				</section>
+			";}i:8;a:2:{s:5:"title";s:22:"Recent comments widget";s:4:"body";s:740:"
+				<!-- Recent comments widget -->
+				<section id="recentCommentsWidget" class="widget">
+					<ol id="recentCommentsW" class="list-group">
+						<li class="list-group-item active-info">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse07"><h4><i class="fa fa-comment-o"></i> Recent Comments</h4></a>
+						</li>
+						<div id="collapse07" class="panel-collapse collapse in">
+							<s_rctrp>
+							<s_rctrp_rep>
+							<li class="list-group-item list-item">
+								<a href="[##_rctrp_rep_link_##]">[##_rctrp_rep_desc_##]</a>
+								<cite>[##_rctrp_rep_name_##]</cite>
+								<time>[##_rctrp_rep_time_##]</time>
+							</li>
+							</s_rctrp_rep>
+							</s_rctrp>
+						</div>
+					</ol>
+				</section>
+			";}i:9;a:2:{s:5:"title";s:24:"Recent trackbacks widget";s:4:"body";s:741:"
+				<!-- Recent trackbacks widget -->
+				<section id="recentTrackbacksWidget" class="widget">
+					<ol id="recentTrackbacksW" class="list-group">
+						<li class="list-group-item active-info">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse08"><h4><i class="fa fa-chain"></i> Recent Trackbacks</h4></a>
+						</li>
+						<div id="collapse08" class="panel-collapse collapse">
+							<s_rcttb>
+							<s_rcttb_rep>
+							<li class="list-group-item list-item">
+								<a href="[##_rcttb_rep_link_##]">[##_rcttb_rep_desc_##]</a>
+								<cite>[##_rcttb_rep_name_##]</cite>
+								<time>[##_rcttb_rep_time_##]</time>
+							</li>
+							</s_rcttb_rep>
+							</s_rcttb>
+						</div>
+					</ol>
+				</section>
+			";}i:10;a:2:{s:5:"title";s:18:"Author list widget";s:4:"body";s:604:"
+				<!-- Author list widget -->
+				<section id="authorWidget" class="widget">
+					<ol id="authorW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse09"><h4><i class="fa fa-user"></i> Authors</h4></a>
+						</li>
+						<div id="collapse09" class="panel-collapse collapse">
+							<s_author_rep>
+							<li class="list-group-item list-item">
+								<a href="[##_author_rep_link_##]">
+									[##_author_rep_name_##]
+								</a>
+							</li>
+							</s_author_rep>
+						</div>
+					</ol>
+				</section>
+			";}i:11;a:2:{s:5:"title";s:16:"Bookmarks widget";s:4:"body";s:504:"
+				<!-- Bookmarks widget -->
+				<section id="bookmarkWidget" class="widget">
+					<ol id="bookmarkW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10"><h4><i class="fa fa-bookmark"></i> Bookmarks</h4></a>
+						</li>
+						<div id="collapse10" class="panel-collapse collapse">
+							<li class="list-group-item list-item">
+								[##_link_list_##]
+							</li>
+						</div>
+					</ol>
+				</section>
+			";}i:12;a:2:{s:5:"title";s:16:"Bookmarks widget";s:4:"body";s:538:"
+				<!-- Bookmarks widget -->
+				<section id="countWidget" class="widget">
+					<ol id="countW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <h4><i class="fa fa-leaf"></i> Site Stats</h4>
+						</li>
+						<li class="list-group-item list-item">
+							<dl>
+								<dt>Total hits</dt>
+								<dd>[##_count_total_##]</dd>
+								<dt>Today</dt>
+								<dd>[##_count_today_##]</dd>
+								<dt>Yesterday</dt>
+								<dd>[##_count_yesterday_##]</dd>
+							</dl>
+						</li>
+					</ol>
+				</section>
+			";}}i:1;a:2:{i:0;a:2:{s:5:"title";s:22:"Textcube Banner widget";s:4:"body";s:385:"
+				<!-- Textcube Banner widget -->
+				<section id="textcubeBannerWidget" class="widget">
+					<ol id="textcubeBannerW" class="list-group">
+						<li class="list-group-item list-item">
+							<a href="http://www.textcube.org" onclick="window.open(this.href); return false"><img src="./images/banner_textcube_120-60.jpg" alt="Textcube" /></a>
+						</li>
+					</ol>
+				</section>
+			";}i:1;a:2:{s:5:"title";s:22:"Textcube Banner widget";s:4:"body";s:1100:"
+				<!-- Textcube Banner widget -->
+				<section id="subscriptionWidget" class="widget">
+					<ol id="subscriptionW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <h4><i class="fa fa-rss"></i> Feeds</h4>
+						</li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/rss" class="rss" rel="alternate" type="application/rss+xml">Subscribe to <abbr title="Really Simple Syndication">RSS</abbr> articles</a></li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/rss/response" class="rss response feed" rel="alternate" type="application/rss+xml"><span>Subscribe to RSS responses</span></a></li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/atom" class="atom feed" rel="alternate" type="application/atom+xml"><span>Subscribe to ATOM articles</span></a></li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/atom/response" class="atom response feed" rel="alternate" type="application/atom+xml"><span>Subscribe to ATOM responses</span></a></li>
+					</ol>
+				</section>
+			";}}}s:14:"sidebarStorage";a:0:{}s:22:"sidebarOriginalContent";a:2:{i:0;s:8170:"
+				<s_sidebar_element>
+				<!-- Name card widget -->
+					<section id="namecardWidget" class="widget">
+						<article class="description">
+						<div class="breadcrumb">
+							<img src="http://mypages.co.kr/resources/image/spacer.gif" alt="namecard image" class="img-thumbnail" />
+							<p class="nameDesc"></p>
+							<p class="blogger">by <span class="label label-default">toughskg</span></p>
+						</div>
+						</article>
+					</section>
+				</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Search widget -->
+				<section id="searchWidget" class="widget">
+					<s_search>
+						<!--<div class="navbar-form" role="search">-->
+						<div class="input-group">
+							<input type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }" class="form-control search" />
+							<span class="input-group-btn">
+								<button class="btn btn-info" type="button" onclick="[##_search_onclick_submit_##]" alt="Search" value="Submit"><i class="fa fa-search"></i>Find</button>
+							</span>
+						</div>
+					</s_search>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Calendar widget -->
+				<section id="calendarWidget" class="widget">
+					<ol id="calendarW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <h4><i class="fa fa-calendar"></i> Calendar</h4>
+						</li>
+						<li class="list-group-item list-item">
+							[##_calendar_##]
+						</li>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+			<!-- Tag Cloud widget -->
+				<section id="tagcloudWidget" class="widget">
+					<ol id="tagcloudW" class="list-group">
+						<li class="list-group-item active-default">
+						    <h4><i class="fa fa-cloud"></i> Tag Cloud</h4>
+						</li>
+						<li class="list-group-item list-item">
+							<ul>
+								<s_random_tags>
+								<li><a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a></li>
+								</s_random_tags>
+							</ul>
+						</li>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Notices -->
+				<s_rct_notice>
+				<section id="recentNoticeWidget" class="widget">
+					<ol id="recentNoticeW" class="list-group">
+						<li class="list-group-item active-danger">
+						    <h4><i class="fa fa-thumb-tack"></i> Notices</h4>
+						</li>
+						<s_rct_notice_rep>
+						<li class="list-group-item list-item">
+							<a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a>
+							<span class="author"><cite>By <a href="[##_notice_rep_author_link_##]">[##_notice_rep_author_##]</a></cite></span>
+						</li>
+						</s_rct_notice_rep>
+					</ol>
+				</section>
+				</s_rct_notice>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Post archive widget -->
+				<section id="archiveWidget" class="widget">
+					<ol id="archiveW" class="list-group">
+						<li class="list-group-item active-success">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse04"><h4><i class="fa fa-paste"></i> Archives</h4></a>
+						</li>
+						<div id="collapse04" class="panel-collapse collapse">
+							<s_archive_rep>
+							<li class="list-group-item list-item">
+								<a href="[##_archive_rep_link_##]">[##_archive_rep_date_##] </a>
+								<span class="count">([##_archive_rep_count_##])</span>
+							</li>
+							</s_archive_rep>
+						</div>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Categories widget -->
+				<section id="categoryWidget" class="widget">
+					<ol id="categoryW" class="list-group">
+						<li class="list-group-item active-success">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse05"><h4><i class="fa fa-list-alt"></i> Categories</h4></a>
+						</li>
+						<div id="collapse05" class="panel-collapse collapse in">
+							<li class="list-group-item list-item">
+								[##_category_list_##]
+							</li>
+						</div>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Recent posts widget -->
+				<section id="recentPostWidget" class="widget">
+					<s_rctps>
+					<ol id="recentEntries" class="list-group">
+						<li class="list-group-item active-info">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse06"><h4><i class="fa fa-edit"></i> Recent Posts</h4></a>
+						</li>
+						<div id="collapse06" class="panel-collapse collapse in">
+							<s_rctps_rep>
+							<li class="list-group-item list-item"><a href="[##_rctps_rep_link_##]">
+									[##_rctps_rep_title_##]</a> <span class="count">[##_rctps_rep_rp_cnt_##]</span>
+									<span class="author">by <cite><a href="[##_rctps_rep_author_link_##]">[##_rctps_rep_author_##]</a></cite></span></li>
+							</s_rctps_rep>
+						</div>
+					</ol>
+					</s_rctps>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Recent comments widget -->
+				<section id="recentCommentsWidget" class="widget">
+					<ol id="recentCommentsW" class="list-group">
+						<li class="list-group-item active-info">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse07"><h4><i class="fa fa-comment-o"></i> Recent Comments</h4></a>
+						</li>
+						<div id="collapse07" class="panel-collapse collapse in">
+							<s_rctrp>
+							<s_rctrp_rep>
+							<li class="list-group-item list-item">
+								<a href="[##_rctrp_rep_link_##]">[##_rctrp_rep_desc_##]</a>
+								<cite>[##_rctrp_rep_name_##]</cite>
+								<time>[##_rctrp_rep_time_##]</time>
+							</li>
+							</s_rctrp_rep>
+							</s_rctrp>
+						</div>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Recent trackbacks widget -->
+				<section id="recentTrackbacksWidget" class="widget">
+					<ol id="recentTrackbacksW" class="list-group">
+						<li class="list-group-item active-info">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse08"><h4><i class="fa fa-chain"></i> Recent Trackbacks</h4></a>
+						</li>
+						<div id="collapse08" class="panel-collapse collapse">
+							<s_rcttb>
+							<s_rcttb_rep>
+							<li class="list-group-item list-item">
+								<a href="[##_rcttb_rep_link_##]">[##_rcttb_rep_desc_##]</a>
+								<cite>[##_rcttb_rep_name_##]</cite>
+								<time>[##_rcttb_rep_time_##]</time>
+							</li>
+							</s_rcttb_rep>
+							</s_rcttb>
+						</div>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Author list widget -->
+				<section id="authorWidget" class="widget">
+					<ol id="authorW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse09"><h4><i class="fa fa-user"></i> Authors</h4></a>
+						</li>
+						<div id="collapse09" class="panel-collapse collapse">
+							<s_author_rep>
+							<li class="list-group-item list-item">
+								<a href="[##_author_rep_link_##]">
+									[##_author_rep_name_##]
+								</a>
+							</li>
+							</s_author_rep>
+						</div>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Bookmarks widget -->
+				<section id="bookmarkWidget" class="widget">
+					<ol id="bookmarkW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <a data-toggle="collapse" data-parent="#accordion" href="#collapse10"><h4><i class="fa fa-bookmark"></i> Bookmarks</h4></a>
+						</li>
+						<div id="collapse10" class="panel-collapse collapse">
+							<li class="list-group-item list-item">
+								[##_link_list_##]
+							</li>
+						</div>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Bookmarks widget -->
+				<section id="countWidget" class="widget">
+					<ol id="countW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <h4><i class="fa fa-leaf"></i> Site Stats</h4>
+						</li>
+						<li class="list-group-item list-item">
+							<dl>
+								<dt>Total hits</dt>
+								<dd>[##_count_total_##]</dd>
+								<dt>Today</dt>
+								<dd>[##_count_today_##]</dd>
+								<dt>Yesterday</dt>
+								<dd>[##_count_yesterday_##]</dd>
+							</dl>
+						</li>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			";i:1;s:1575:"
+			<s_sidebar_element>
+				<!-- Textcube Banner widget -->
+				<section id="textcubeBannerWidget" class="widget">
+					<ol id="textcubeBannerW" class="list-group">
+						<li class="list-group-item list-item">
+							<a href="http://www.textcube.org" onclick="window.open(this.href); return false"><img src="./images/banner_textcube_120-60.jpg" alt="Textcube" /></a>
+						</li>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			<s_sidebar_element>
+				<!-- Textcube Banner widget -->
+				<section id="subscriptionWidget" class="widget">
+					<ol id="subscriptionW" class="list-group">
+						<li class="list-group-item active-gray">
+						    <h4><i class="fa fa-rss"></i> Feeds</h4>
+						</li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/rss" class="rss" rel="alternate" type="application/rss+xml">Subscribe to <abbr title="Really Simple Syndication">RSS</abbr> articles</a></li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/rss/response" class="rss response feed" rel="alternate" type="application/rss+xml"><span>Subscribe to RSS responses</span></a></li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/atom" class="atom feed" rel="alternate" type="application/atom+xml"><span>Subscribe to ATOM articles</span></a></li>
+						<li class="list-group-item list-item"><a href="http://mypages.co.kr/atom/response" class="atom response feed" rel="alternate" type="application/atom+xml"><span>Subscribe to ATOM responses</span></a></li>
+					</ol>
+				</section>
+			</s_sidebar_element>
+			";}s:11:"sidebarName";a:2:{i:0;s:14:"사이드바 1";i:1;s:14:"사이드바 2";}s:5:"cover";s:189:" <!-- Cover page section ........................................................... -->
+			<section class="coverpage">
+				<article>
+					[##_cover_rep_##]
+				</article>
+			</section>
+			";s:9:"coverpage";N;s:21:"coverpageBasicModules";a:1:{i:0;a:0:{}}s:16:"coverpageStorage";a:0:{}s:24:"coverpageOriginalContent";a:0:{}s:13:"coverpageName";a:1:{i:0;s:6:"표지";}s:4:"line";s:710:" <!-- Line List section .............................................................. -->
+			<section class="line entry_post panel panel-default">
+				<header>
+[##_SKIN_head_start_##]					<hgroup class="page-header">
+						<h2><i class="fa fa-map-marker"></i> Lines <small>Instant myself</small></h2>
+					</hgroup>
+					<a href="[##_line_rssurl_##]" class="feed"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/rss_12.png" alt="RSS Icon" /></a>
+					<a href="[##_line_atomurl_##]" class="feed"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/atom_12.png" alt="ATOM Icon" /></a>
+				</header>
+				<article>
+					[##_line_rep_##]
+					[##_line_button_##]
+				</article>
+			</section>
+			";s:8:"lineItem";s:692:"
+					<div class="panel panel-default">
+						<dl class="content">
+							<dd class="contents">
+								<dl class="comment-link">
+									<dt class="regdate label label-default"><i class="fa fa-clock-o"></i> <time datetime="[##_line_rep_regdate_##]">[##_line_rep_regdate_##]</time></dt>
+									<dd class="author label label-success"><i class="fa fa-user"></i> [##_line_rep_author_##]</dd>
+									<dd class="source">Streamed from [##_line_rep_source_##]</dd>
+									<dd class="permalink  label label-info"><a href="[##_line_rep_permalink_##]"><i class="fa fa-chain"></i> Permalink</a></dd>
+								</dl>
+								<p>[##_line_rep_content_##]</p>
+							</dd>
+						</dl>
+					</div>
+					";s:10:"lineButton";s:134:"
+						<input type="submit" class="btn btn-success more-button input-button" value="More" onclick="[##_line_onclick_more_##]" />
+					";s:18:"noneCommentMessage";s:0:"";s:20:"singleCommentMessage";s:0:"";s:20:"noneTrackbackMessage";s:0:"";s:22:"singleTrackbackMessage";s:0:"";s:16:"microformatDebug";a:11:{i:0;s:83:"Microformat-info: 스킨에 가능한 모든 마이크로포맷을 추가합니다.";i:1;s:62:"Microformat-info: 제목에 hAtom용 title을 추가합니다.";i:2;s:54:"Microformat-info: hAtom용 content를 추가합니다.";i:3;s:98:"Microformat-info: hAtom용 발행일(published,updated)을 보이지 않게 추가하였습니다.";i:4;s:206:"Microformat-info: class="author"를 사용한 스킨입니다. hAtom용 author는 삽입하지 않았습니다. 주의: 스킨에 사용된 author의 용도가 마이크로포맷과 다를 수 있습니다.";i:5;s:145:"Microformat-info: 블로그 글영역 전체를 hAtom용 entry로 간주합니다. 적절한 class="hentry" 삽입이 필요할 수 있습니다.";i:6;s:55:"Microformat-info: 제목에 bookmark를 추가합니다";i:7;s:68:"Microformat-info: 댓글 영역에 class="vcard"를 삽입합니다.";i:8;s:78:"Microformat-info: 댓글의 댓글 영역에 class="vcard"를 삽입합니다.";i:9;s:130:"Microformat-info: 방명록 작성자를 감싸고 있는 태그가 없어 span으로 감싼 뒤 class="vcard"를 추가합니다.";i:10;s:140:"Microformat-info: 방명록의 댓글 작성자를 감싸고 있는 태그가 없어 span으로 감싼 뒤 class="vcard"를 추가합니다.";}s:13:"hentryExisted";b:1;s:9:"dressTags";a:222:{i:0;s:15:"SKIN_html_start";i:1;s:15:"SKIN_head_start";i:2;s:15:"page_post_title";i:3;s:24:"meta_http_equiv_keywords";i:4;s:13:"SKIN_head_end";i:5;s:7:"body_id";i:6;s:15:"SKIN_body_start";i:7;s:13:"cover_content";i:9;s:10:"list_count";i:10;s:12:"list_conform";i:11;s:13:"list_rep_link";i:12;s:14:"list_rep_title";i:13;s:15:"list_rep_rp_cnt";i:14;s:16:"list_rep_regdate";i:16;s:12:"rplist_count";i:17;s:14:"rplist_conform";i:18;s:15:"rplist_rep_link";i:19;s:15:"rplist_rep_body";i:20;s:18:"rplist_rep_regdate";i:21;s:15:"rplist_rep_name";i:23;s:12:"tblist_count";i:24;s:14:"tblist_conform";i:25;s:15:"tblist_rep_link";i:26;s:18:"tblist_rep_subject";i:27;s:18:"tblist_rep_regdate";i:28;s:15:"tblist_rep_body";i:30;s:11:"line_rssurl";i:31;s:12:"line_atomurl";i:32;s:16:"line_rep_regdate";i:34;s:15:"line_rep_author";i:35;s:15:"line_rep_source";i:36;s:18:"line_rep_permalink";i:37;s:16:"line_rep_content";i:38;s:17:"line_onclick_more";i:40;s:16:"local_spot_depth";i:42;s:10:"local_spot";i:43;s:16:"local_info_depth";i:44;s:15:"local_info_link";i:45;s:16:"local_info_title";i:46;s:17:"local_info_author";i:48;s:8:"tag_link";i:49;s:9:"tag_class";i:50;s:8:"tag_name";i:52;s:16:"guest_input_name";i:55;s:10:"guest_name";i:56;s:20:"guest_input_password";i:59;s:14:"guest_password";i:60;s:20:"guest_input_homepage";i:63;s:14:"guest_homepage";i:64;s:21:"guest_input_is_secret";i:67;s:19:"guest_textarea_body";i:68;s:20:"guest_onclick_submit";i:69;s:12:"guest_rep_id";i:70;s:15:"guest_rep_class";i:71;s:14:"guest_rep_name";i:72;s:14:"guest_rep_date";i:73;s:14:"guest_rep_link";i:74;s:24:"guest_rep_onclick_delete";i:75;s:23:"guest_rep_onclick_reply";i:76;s:14:"guest_rep_desc";i:85;s:15:"onclick_keyword";i:86;s:13:"keyword_label";i:88;s:16:"keylog_rep_title";i:89;s:15:"keylog_rep_desc";i:91;s:15:"notice_rep_link";i:92;s:16:"notice_rep_title";i:93;s:15:"notice_rep_date";i:94;s:15:"notice_rep_desc";i:96;s:13:"page_rep_link";i:97;s:14:"page_rep_title";i:98;s:13:"page_rep_date";i:99;s:23:"article_rep_author_link";i:100;s:18:"article_rep_author";i:101;s:13:"page_rep_desc";i:103;s:16:"article_rep_link";i:104;s:17:"article_rep_title";i:105;s:16:"article_rep_date";i:108;s:16:"article_password";i:110;s:16:"article_dissolve";i:112;s:28:"article_rep_category_body_id";i:117;s:13:"s_ad_s1_label";i:118;s:15:"s_ad_s2_onclick";i:119;s:13:"s_ad_s2_label";i:120;s:11:"s_ad_m_link";i:121;s:14:"s_ad_m_onclick";i:122;s:14:"s_ad_t_onclick";i:123;s:14:"s_ad_d_onclick";i:124;s:25:"article_rep_date_modified";i:126;s:25:"article_rep_category_link";i:127;s:20:"article_rep_category";i:128;s:16:"article_rep_desc";i:131;s:27:"article_rep_category_rssurl";i:132;s:28:"article_rep_category_atomurl";i:133;s:13:"tag_label_rep";i:134;s:27:"article_rep_response_rssurl";i:135;s:28:"article_rep_response_atomurl";i:136;s:21:"article_rep_tb_cnt_id";i:137;s:19:"article_rep_tb_link";i:138;s:18:"article_rep_tb_cnt";i:139;s:21:"article_rep_rp_cnt_id";i:140;s:19:"article_rep_rp_link";i:141;s:18:"article_rep_rp_cnt";i:142;s:10:"tb_address";i:143;s:22:"article_rep_tb_atomurl";i:145;s:9:"tb_rep_id";i:146;s:10:"tb_rep_url";i:147;s:12:"tb_rep_title";i:148;s:11:"tb_rep_site";i:149;s:11:"tb_rep_date";i:150;s:21:"tb_rep_onclick_delete";i:151;s:11:"tb_rep_desc";i:153;s:9:"rp_rep_id";i:154;s:12:"rp_rep_class";i:155;s:11:"rp_rep_name";i:156;s:11:"rp_rep_date";i:157;s:11:"rp_rep_link";i:158;s:21:"rp_rep_onclick_delete";i:159;s:20:"rp_rep_onclick_reply";i:160;s:11:"rp_rep_desc";i:169;s:13:"rp_input_name";i:170;s:14:"article_rep_id";i:175;s:17:"rp_input_password";i:180;s:14:"rp_admin_check";i:181;s:17:"rp_input_homepage";i:187;s:18:"rp_input_is_secret";i:192;s:16:"rp_input_comment";i:193;s:17:"rp_onclick_submit";i:194;s:9:"prev_page";i:195;s:15:"paging_rep_link";i:196;s:19:"paging_rep_link_num";i:197;s:9:"next_page";i:198;s:11:"search_name";i:199;s:11:"search_text";i:200;s:21:"search_onclick_submit";i:202;s:8:"calendar";i:208;s:22:"notice_rep_author_link";i:209;s:17:"notice_rep_author";i:210;s:16:"archive_rep_link";i:211;s:16:"archive_rep_date";i:212;s:17:"archive_rep_count";i:213;s:13:"category_list";i:214;s:14:"rctps_rep_link";i:215;s:15:"rctps_rep_title";i:216;s:16:"rctps_rep_rp_cnt";i:217;s:21:"rctps_rep_author_link";i:218;s:16:"rctps_rep_author";i:219;s:14:"rctrp_rep_link";i:220;s:14:"rctrp_rep_desc";i:221;s:14:"rctrp_rep_name";i:222;s:14:"rctrp_rep_time";i:223;s:14:"rcttb_rep_link";i:224;s:14:"rcttb_rep_desc";i:225;s:14:"rcttb_rep_name";i:226;s:14:"rcttb_rep_time";i:227;s:15:"author_rep_link";i:228;s:15:"author_rep_name";i:229;s:9:"link_list";i:230;s:11:"count_total";i:231;s:11:"count_today";i:232;s:15:"count_yesterday";i:233;s:13:"SKIN_body_end";i:234;s:13:"SKIN_html_end";i:235;s:9:"cover_rep";i:236;s:5:"cover";i:237;s:8:"line_rep";i:238;s:11:"line_button";i:239;s:4:"line";i:240;s:8:"list_rep";i:241;s:4:"list";i:242;s:10:"rplist_rep";i:243;s:6:"rplist";i:244;s:10:"tblist_rep";i:245;s:6:"tblist";i:246;s:11:"keyword_rep";i:247;s:7:"keyword";i:248;s:10:"notice_rep";i:249;s:10:"keylog_rep";i:250;s:14:"rct_notice_rep";i:251;s:10:"rct_notice";i:252;s:14:"local_info_rep";i:253;s:14:"local_spot_rep";i:254;s:5:"local";i:255;s:21:"guest_reply_container";i:256;s:15:"guest_reply_rep";i:257;s:15:"guest_container";i:258;s:9:"guest_rep";i:259;s:10:"guest_form";i:260;s:12:"guest_member";i:261;s:16:"guest_input_form";i:262;s:5:"guest";i:263;s:17:"article_protected";i:264;s:6:"ad_div";i:265;s:8:"tb_count";i:266;s:8:"rp_count";i:267;s:12:"tb_container";i:268;s:6:"tb_rep";i:269;s:2:"tb";i:270;s:9:"tag_label";i:271;s:7:"tag_rep";i:272;s:3:"tag";i:273;s:11:"random_tags";i:274;s:13:"rp2_container";i:275;s:7:"rp2_rep";i:276;s:12:"rp_container";i:277;s:6:"rp_rep";i:278;s:8:"rp_guest";i:279;s:9:"rp_member";i:280;s:13:"rp_input_form";i:281;s:2:"rp";i:282;s:11:"article_rep";i:283;s:10:"paging_rep";i:284;s:6:"paging";i:285;s:11:"archive_rep";i:286;s:6:"search";i:287;s:10:"author_rep";i:288;s:9:"rctps_rep";i:289;s:5:"rctps";i:290;s:9:"rctrp_rep";i:291;s:5:"rctrp";i:292;s:9:"rcttb_rep";i:293;s:5:"rcttb";i:294;s:10:"page_title";}s:5:"cache";O:9:"pageCache":17:{s:4:"pool";O:7:"DBModel":17:{s:14:" * _attributes";a:0:{}s:14:" * _qualifiers";a:2:{s:6:"blogid";a:1:{i:0;i:1;}s:4:"name";a:1:{i:0;s:22:"'skinCache-periwinkle'";}}s:9:" * _query";N;s:13:" * _relations";a:2:{s:6:"blogid";a:1:{i:0;s:1:"=";}s:4:"name";a:1:{i:0;s:1:"=";}}s:9:" * _glues";a:0:{}s:11:" * _filters";a:0:{}s:9:" * _order";a:0:{}s:14:" * _limitation";N;s:8:" * table";s:15:"tc_PageCacheLog";s:5:" * id";N;s:17:" * _querysetCount";i:0;s:18:" * _reservedFields";N;s:14:" * _isReserved";a:0:{}s:8:" * param";a:0:{}s:7:"context";O:13:"Model_Context":2:{s:25:" Model_Context __property";a:135:{s:19:"global.backend_name";s:5:"mysql";s:15:"database.server";s:9:"localhost";s:17:"database.database";s:8:"toughskg";s:17:"database.username";s:8:"toughskg";s:17:"database.password";s:8:"shin8520";s:15:"database.prefix";s:3:"tc_";s:13:"database.dbms";s:5:"MySQL";s:13:"database.port";s:4:"3306";s:12:"service.type";s:6:"single";s:14:"service.domain";s:13:"mypages.co.kr";s:12:"service.path";s:0:"";s:12:"service.skin";s:10:"periwinkle";s:29:"service.favicon_daily_traffic";i:10;s:14:"service.useSSL";b:0;s:15:"service.timeout";i:900;s:16:"service.language";s:2:"ko";s:16:"service.timezone";s:10:"Asia/Seoul";s:16:"service.encoding";s:5:"UTF-8";s:13:"service.umask";i:0;s:16:"service.fancyURL";i:2;s:21:"service.useEncodedURL";b:0;s:17:"service.debugmode";b:0;s:14:"service.reader";b:1;s:27:"service.flashclipboardpoter";b:1;s:34:"service.allowBlogVisibilitySetting";b:1;s:30:"service.disableEolinSuggestion";b:1;s:17:"service.interface";s:6:"detail";s:17:"service.pagecache";b:1;s:17:"service.codecache";b:0;s:17:"service.skincache";b:1;s:25:"service.externalresources";b:0;s:21:"service.flashuploader";b:1;s:26:"service.debug_session_dump";b:0;s:28:"service.debug_rewrite_module";b:0;s:26:"service.useNumericURLonRSS";b:0;s:20:"service.forceinstall";b:0;s:21:"service.cookie_prefix";s:12:"Textcube1107";s:27:"service.session_cookie_path";s:1:"/";s:20:"service.resourcepath";s:10:"/resources";s:29:"service.session_cookie_domain";s:13:"mypages.co.kr";s:18:"database.connected";b:1;s:8:"uri.host";s:20:"http://mypages.co.kr";s:12:"uri.fullpath";s:20:"/notice?mode=desktop";s:12:"uri.position";s:12:"/rewrite.php";s:8:"uri.root";s:1:"/";s:9:"uri.input";s:19:"notice?mode=desktop";s:12:"uri.fragment";a:1:{i:0;s:6:"notice";}s:17:"uri.interfaceType";s:4:"blog";s:17:"uri.interfacePath";s:25:"interface/blog/notice.php";s:18:"uri.interfaceRoute";s:20:"interface/blog/notic";s:19:"uri.isStrictBlogURL";b:1;s:11:"uri.service";s:20:"http://mypages.co.kr";s:8:"uri.path";s:0:"";s:11:"uri.default";s:20:"http://mypages.co.kr";s:8:"uri.base";s:0:"";s:8:"uri.blog";s:0:"";s:10:"uri.folder";s:7:"/notice";s:13:"uri.permalink";s:27:"http://mypages.co.kr/notice";s:13:"uri.basicblog";s:0:"";s:9:"blog.name";s:8:"toughskg";s:13:"blog.language";s:2:"ko";s:17:"blog.blogLanguage";s:2:"ko";s:13:"blog.timezone";s:10:"Asia/Seoul";s:18:"blog.defaultEditor";s:7:"tinyMCE";s:21:"blog.defaultFormatter";s:4:"ttml";s:21:"blog.acceptTrackbacks";s:1:"1";s:19:"blog.acceptComments";s:1:"1";s:18:"blog.defaultDomain";s:1:"0";s:10:"blog.title";s:0:"";s:16:"blog.description";s:0:"";s:9:"blog.logo";s:0:"";s:14:"blog.logoLabel";s:0:"";s:14:"blog.logoWidth";s:1:"0";s:15:"blog.logoHeight";s:1:"0";s:14:"blog.frontpage";s:5:"entry";s:26:"blog.useFeedViewOnCategory";s:1:"1";s:20:"blog.useSloganOnPost";s:1:"1";s:24:"blog.useSloganOnCategory";s:1:"1";s:19:"blog.useSloganOnTag";s:1:"1";s:18:"blog.entriesOnPage";s:2:"10";s:18:"blog.entriesOnList";s:2:"10";s:17:"blog.entriesOnRSS";s:2:"10";s:18:"blog.commentsOnRSS";s:2:"10";s:22:"blog.publishWholeOnRSS";s:1:"1";s:26:"blog.publishEolinSyncOnRSS";s:1:"1";s:26:"blog.allowWriteOnGuestbook";s:1:"1";s:36:"blog.allowWriteDblCommentOnGuestbook";s:1:"1";s:15:"blog.visibility";s:1:"2";s:23:"blog.noneCommentMessage";s:0:"";s:25:"blog.singleCommentMessage";s:0:"";s:25:"blog.noneTrackbackMessage";s:0:"";s:27:"blog.singleTrackbackMessage";s:0:"";s:17:"blog.sidebarOrder";s:1113:"a:2:{i:0;a:13:{i:0;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"0";}i:1;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"1";}i:2;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"2";}i:3;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"3";}i:4;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"4";}i:5;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"5";}i:6;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"6";}i:7;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"7";}i:8;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"8";}i:9;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"9";}i:10;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:2:"10";}i:11;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:2:"11";}i:12;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:2:"12";}}i:1;a:2:{i:0;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"1";s:10:"parameters";s:1:"0";}i:1;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"1";s:10:"parameters";s:1:"1";}}}";s:17:"blog.centerLayout";s:155:"a:3:{i:0;a:1:{s:6:"plugin";s:22:"defaultDashboardWidget";}i:1;a:1:{s:6:"plugin";s:17:"TextcubeSeparator";}i:2;a:1:{s:6:"plugin";s:17:"TextcubeSeparator";}}";s:7:"blog.id";i:1;s:19:"blog.primaryBlogURL";s:20:"http://mypages.co.kr";s:21:"blog.secondaryBlogURL";N;s:9:"skin.skin";s:10:"periwinkle";s:11:"skin.blogid";s:1:"1";s:20:"skin.entriesOnRecent";s:1:"5";s:20:"skin.noticesOnRecent";s:1:"5";s:21:"skin.commentsOnRecent";s:1:"5";s:24:"skin.commentsOnGuestbook";s:1:"5";s:20:"skin.commentsOnEntry";s:2:"15";s:19:"skin.archivesOnPage";s:1:"5";s:17:"skin.tagsOnTagbox";s:2:"30";s:16:"skin.tagboxAlign";s:1:"3";s:23:"skin.trackbacksOnRecent";s:1:"5";s:18:"skin.expandComment";s:1:"1";s:20:"skin.expandTrackback";s:1:"1";s:19:"skin.sortCommentsBy";s:3:"ASC";s:23:"skin.recentNoticeLength";s:2:"25";s:22:"skin.recentEntryLength";s:2:"30";s:24:"skin.recentCommentLength";s:2:"30";s:26:"skin.recentTrackbackLength";s:2:"30";s:15:"skin.linkLength";s:2:"30";s:23:"skin.showListOnCategory";s:1:"1";s:22:"skin.showListOnArchive";s:1:"1";s:18:"skin.showListOnTag";s:1:"1";s:21:"skin.showListOnAuthor";s:1:"1";s:21:"skin.showListOnSearch";s:1:"1";s:9:"skin.tree";s:4:"base";s:16:"skin.colorOnTree";s:6:"000000";s:18:"skin.bgColorOnTree";s:0:"";s:22:"skin.activeColorOnTree";s:6:"FFFFFF";s:24:"skin.activeBgColorOnTree";s:6:"00ADEF";s:22:"skin.labelLengthOnTree";s:2:"27";s:20:"skin.showValueOnTree";s:1:"1";s:17:"skin.contentWidth";s:3:"650";s:8:"suri.url";s:20:"/notice?mode=desktop";s:10:"suri.value";s:0:"";s:14:"suri.directive";s:7:"/notice";s:9:"suri.page";b:1;s:16:"blog.displaymode";s:6:"mobile";s:13:"blog.workmode";s:8:"standard";}s:26:" Model_Context __namespace";N;}s:6:"_limit";a:0:{}s:18:"_reservedFunctions";a:1:{i:0;s:16:"UNIX_TIMESTAMP()";}}s:7:"context";r:391;s:5:"error";s:14:"no file exists";s:14:"_fileCacheOnly";N;s:11:"_dbContents";a:2:{s:4:"user";N;s:5:"owner";N;}s:10:"dbContents";N;s:8:"contents";N;s:21:"absoluteFilePathGuest";s:67:"/home/hosting_users/toughskg/www/cache/pageCache/1/2594356807.cache";s:21:"absoluteFilePathOwner";s:67:"/home/hosting_users/toughskg/www/cache/pageCache/1/4011092713.cache";s:16:"absoluteFilePath";s:67:"/home/hosting_users/toughskg/www/cache/pageCache/1/2594356807.cache";s:13:"filenameGuest";s:16:"2594356807.cache";s:13:"filenameOwner";s:16:"4011092713.cache";s:8:"filename";s:16:"2594356807.cache";s:13:"realNameGuest";s:22:"skinCache-periwinkle_1";s:13:"realNameOwner";s:28:"skinCache-periwinkle_1_owner";s:8:"realName";s:20:"skinCache-periwinkle";s:4:"name";s:20:"skinCache-periwinkle";}s:9:"coverItem";s:33:"
+					[##_cover_content_##]
+					";s:17:"trackbackListItem";s:287:"
+					<dl class="list-group-item">
+						<dt><a href="[##_tblist_rep_link_##]">[##_tblist_rep_subject_##]</a></dt>
+						<dd class="regdate"><i class="fa fa-clock-o"></i> <time>[##_tblist_rep_regdate_##]</time></dd>
+						<dd class="content">[##_tblist_rep_body_##]</dd>
+					</dl>
+					";s:13:"trackbackList";s:495:" <!-- Trackbacks/Pingbacks List section ............................................ -->
+			<section class="list trackback">
+				<header class="page-header">
+[##_SKIN_head_start_##]					<h4><i class="fa fa-search"></i> [##_tblist_count_##] Trackbacks  : Results for <small><i class="fa fa-quote-left"></i></small> [##_tblist_conform_##] <small><i class="fa fa-quote-right"></i></small></h4>
+				</header>
+				<article class="list-group">
+					[##_tblist_rep_##]
+				</article>
+			</section>
+			";s:10:"keylogItem";s:544:" <!-- Keylog post section (for tag description, etc..) ...................  -->
+			<section class="keylog post entry_post panel panel-default">
+				<header>
+[##_SKIN_head_start_##]					<hgroup class="page-header">
+						<h4><i class="fa fa-flag-o"></i> Keyword <small><i class="fa fa-quote-left"></i></small>  [##_keylog_rep_title_##] <small><i class="fa fa-quote-right"></i></small></h4>
+					</hgroup>
+				</header>
+				<article class="list-group">
+					<p class="list-group-item">[##_keylog_rep_desc_##]</p>
+				</article>
+			</section>
+			";s:14:"recentPageItem";N;s:10:"recentPage";N;s:10:"authorList";s:156:"
+							<li class="list-group-item list-item">
+								<a href="[##_author_rep_link_##]">
+									[##_author_rep_name_##]
+								</a>
+							</li>
+							";s:15:"recentEntryItem";s:303:"
+							<li class="list-group-item list-item"><a href="[##_rctps_rep_link_##]">
+									[##_rctps_rep_title_##]</a> <span class="count">[##_rctps_rep_rp_cnt_##]</span>
+									<span class="author">by <cite><a href="[##_rctps_rep_author_link_##]">[##_rctps_rep_author_##]</a></cite></span></li>
+							";s:17:"recentCommentItem";s:223:"
+							<li class="list-group-item list-item">
+								<a href="[##_rctrp_rep_link_##]">[##_rctrp_rep_desc_##]</a>
+								<cite>[##_rctrp_rep_name_##]</cite>
+								<time>[##_rctrp_rep_time_##]</time>
+							</li>
+							";s:13:"recentComment";s:33:"
+							[##_rctrp_rep_##]
+							";s:19:"recentTrackbackItem";s:223:"
+							<li class="list-group-item list-item">
+								<a href="[##_rcttb_rep_link_##]">[##_rcttb_rep_desc_##]</a>
+								<cite>[##_rcttb_rep_name_##]</cite>
+								<time>[##_rcttb_rep_time_##]</time>
+							</li>
+							";s:8:"link_rep";N;s:13:"entryOriginal";s:3243:" <!-- Post section ....................................................... -->
+			<section class="entry_post panel panel-default">
+				<section class="entry post [##_article_rep_category_body_id_##]">
+					<header>
+[##_SKIN_head_start_##]					<div class="page-header">
+						<h3>
+							<i class="fa fa-pencil-square-o"></i><a href="[##_article_rep_link_##]"> [##_article_rep_title_##]</a>
+						</h3>
+					</div>
+					</header>
+					<article class="post [##_article_rep_category_body_id_##]">
+						[##_ad_div_##]
+						<dl class="well well-sm information">
+							<dd class="posted date"><span class="label label-success"><i class="fa fa-clock-o"></i> Posted</span> <time>[##_article_rep_date_##]</time></dd>
+							<dd class="category"><span class="label label-default"><i class="glyphicon glyphicon-list"></i> Filed under</span> <a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></dd>
+						</dl>
+						<div class="desc-content">[##_article_rep_desc_##]</div>
+					</article>
+				</section>
+				<section class="summary">
+					<article>
+						<dl class="well well-sm information">
+							<dd class="author"><span class="label label-info"><i class="glyphicon glyphicon-pencil"></i> Posted by</span> <cite><a href="[##_article_rep_author_link_##]">[##_article_rep_author_##]</a></cite></dd>
+							<dd class="category rss feed"><a href="[##_article_rep_category_rssurl_##]" onclick="window.open(this.href); return false"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/rss_12.png" alt="RSS 2.0 feed" /></a></dd>
+							<dd class="category atom feed"><a href="[##_article_rep_category_atomurl_##]" onclick="window.open(this.href); return false"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/atom_12.png" alt="ATOM 1.0 feed" /></a></dd>
+							[##_tag_label_##]
+						</dl>
+						<dl class="response">
+							<dt class="response">Response</dt>
+							<dt class="feed">You can track responses via RSS / ATOM feed</dt>
+							<dd class="rss feed"><a href="[##_article_rep_response_rssurl_##]" onclick="window.open(this.href); return false"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/rss_12.png" alt="RSS 2.0 feed" /></a></dd>
+							<dd class="atom feed"><a href="[##_article_rep_response_atomurl_##]" onclick="window.open(this.href); return false"><img src="http://mypages.co.kr/skin/blog/periwinkle/images/atom_12.png" alt="ATOM 1.0 feed" /></a></dd>
+							<dd class="response">
+								<menu>
+								<ul class="list-group row">
+									<li class="list-group-item col-xs-5 col-md-3">
+										<a id="[##_article_rep_tb_cnt_id_##]" href="#tb" onclick="[##_article_rep_tb_link_##]" label="Show/hide responses" class="button">
+										<i class="glyphicon glyphicon-link"> </i>
+										[##_tb_count_##]
+										</a>
+									</li>
+									<li class="list-group-item col-xs-5 col-md-3">
+										<a id="[##_article_rep_rp_cnt_id_##]" href="#rp" onclick="[##_article_rep_rp_link_##]" title="Show/hide commments" class="button">
+										<i class="glyphicon glyphicon-leaf"> </i>
+										[##_rp_count_##]
+										</a>
+									</li>
+								</ul>
+								</menu>
+							</dd>
+						</dl>
+					</article>
+				</section>
+
+				[##_tb_##]
+				[##_rp_##]
+			</section>
+			";}

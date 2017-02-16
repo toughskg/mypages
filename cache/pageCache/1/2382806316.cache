@@ -1,0 +1,834 @@
+a:93:{s:6:"outter";s:5956:"<!DOCTYPE html>
+<html>
+[##_SKIN_html_start_##]<head>
+<meta name="generator" content="Textcube 1.10.7 : Tempo primo" />
+[##_SKIN_head_start_##]	<meta charset="UTF-8">
+	<title> [##_page_title_##]</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<meta http-equiv="Keywords" content="[##_meta_http_equiv_keywords_##]" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+
+	<link rel="alternate" type="application/rss+xml" title="" href="http://mypages.co.kr/rss" />
+	<link rel="alternate" type="application/rss+xml" title=" : responses" href="http://mypages.co.kr/rss/response" />
+	<link rel="alternate" type="application/atom+xml" title="" href="http://mypages.co.kr/atom" />
+	<link rel="alternate" type="application/atom+xml" title=" : responses" href="http://mypages.co.kr/atom/response" />
+
+	<link rel="stylesheet" media="screen" type="text/css" href="http://mypages.co.kr/skin/default/lucid/style.css" />
+	<!--<link rel="stylesheet" media="print" type="text/css" href="http://mypages.co.kr/skin/default/lucid/print.css" /> -->
+[##_SKIN_head_end_##]</head>
+
+<body id="[##_body_id_##]">
+[##_SKIN_body_start_##]	<nav id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"></a>
+			</div>
+			<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-left">
+				<li class="tab_notice"><a href="/notice"><i class="fa fa-fw fa-bullhorn"></i> Notice</a></li>
+				<li class="tab_page"><a href="/page"><i class="fa fa-fw fa-file-o"></i> Page</a></li>
+				<li class="sidebar"><a href="#menu-toggle" id="menu-toggle"><i class="fa fa-fw fa-archive"></i> Sidebar</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/owner"><i class="fa fa-fw fa-gears"></i> Control Panel</a></li>
+				<li><a href="/owner/entry/post"><i class="fa fa-fw fa-edit"></i> Write a Post</a></li>
+			</ul>
+			</div><!-- end of navbar-collapse -->
+		</div>
+	</nav>
+
+	<div id="content" class="container">
+	<header class="page-header">
+[##_SKIN_head_start_##]		<h1><a href="/"></a> <small></small></h1>
+	</header>
+
+	<div id="contentbody" class="row">
+
+	<!-- This code is for sidebar-enabled UI. Tablet UI support will be added in the next version.
+	<div id="sections" class="col-md-9 col-md-push-3">-->
+	<div id="sections" class="col-md-12">
+
+	[##_list_##]
+	[##_rplist_##]
+	[##_tblist_##]
+	[##_line_##]
+	[##_local_##]
+	[##_tag_##]
+	[##_guest_##]
+	[##_keyword_##]
+	[##_keylog_rep_##]
+	[##_notice_rep_##]
+	<s_page_rep> <!-- Notice and pages section ............................................ -->
+	<section class="page pages post">
+		<header>
+[##_SKIN_head_start_##]			<h2><a href="[##_page_rep_link_##]">[##_page_rep_title_##]</a></h2>
+		</header>
+		<article>
+			[##_page_rep_desc_##]
+		</article>
+	</section>
+	<section class="summary">
+		<article>
+			<dl class="dl-horizontal information">
+				<dt>Posted at</dt>
+				<dd class="posted date"><time>[##_page_rep_date_##]</time></dd>
+				<dt>Last updated</dt>
+				<dd class="modified date"><time>[##_page_rep_date_modified_##]</time></dd>
+				<dt>Author</dt>
+				<dd class="author"><cite><a href="[##_page_rep_author_link_##]">[##_page_rep_author_##]</a></cite></dd>
+				<dt>Filed under</dt>
+				<dd class="category"><a href="/page">Page</a></dd>
+			</dl>
+		</article>
+	</section>
+	</s_page_rep>
+
+	[##_article_protected_##]
+
+	[##_article_rep_##]
+	[##_paging_##]
+
+	</div><!-- end of sections -->
+
+	<!-- This code is for sidebar. Tablet UI support will be added in the next version.-->
+	<aside id="sidebar" class="col-md-3 col-md-pull-9">
+	<!-- Sidebar (first) -->
+	
+	<!-- Name card widget -->
+		<section id="namecardWidget" class="widget text-center">
+			<div class="thumbnail">
+				<img src="http://mypages.co.kr/resources/image/spacer.gif" alt="Namecard image" />
+				<div class="caption">
+					<strong></strong><br>toughskg
+				</div>
+			</div>
+		</section>
+	
+	<!-- Tag Cloud widget -->
+		<section id="tagcloudWidget" class="widget">
+			<h3>Tag Cloud</h3>
+			<ul class="tags">
+				[##_random_tags_##]
+			</ul>
+		</section>
+	
+	<!-- Notices -->
+	[##_rct_notice_##]
+	
+	<!-- Search widget -->
+		<section id="searchWidget" class="widget">
+		[##_search_##]
+		</section>
+	
+	<!-- Categories widget -->
+		<section id="categoryWidget" class="widget">
+			<h3>Categories</h3>
+			[##_category_list_##]
+		</section>
+	
+	<!-- Recent posts widget -->
+		<section id="recentPostWidget" class="widget">
+			[##_rctps_##]
+		</section>
+	
+	</aside>
+
+	</div><!-- end of contentbody row -->
+
+	<footer id="footer" class="text-center">
+		<address class="blogger">toughskg's Website</address>
+		<address class="powered">
+			Powered by <a href="http://www.textcube.org" onclick="window.open(this.href); return false">Textcube 1.10.7 : Tempo primo</a></address>
+		<address class="credit">
+			Lucid HTML5 skin by <a href="http://daybreaker.info">daybreaker</a> / <a href="http://forest.nubimaru.com">inureyes</a>
+		</address>
+	</footer>
+
+	</div><!-- end of content -->
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<!-- Sidebar caller -->
+	<script>
+	//<![CDATA[
+	jQuery("#menu-toggle").click(function(e) {
+		e.preventDefault();
+		jQuery("#content").toggleClass("toggled");
+		jQuery("#TCmobileScreenButton").toggleClass("toggled");
+	});
+	//]]>
+	</script>
+[##_SKIN_body_end_##]</body>
+[##_SKIN_html_end_##]</html>
+";s:4:"skin";N;s:4:"list";s:440:"  <!-- List section ................................................................. -->
+	<section class="list search">
+		<header>
+[##_SKIN_head_start_##]			<h2>Results for '[##_list_conform_##]'</h2>
+			<a href="[##_list_atom_url_##]"><img src="http://mypages.co.kr/skin/default/lucid/images/atom_12.png" alt="ATOM Icon" /></a>
+			<h3>[##_list_count_##] entries</h3>
+		</header>
+		<article>
+			[##_list_rep_##]
+		</article>
+	</section>
+	";s:8:"listItem";s:386:"
+			<dl class="list-group panel panel-default">
+				<dt class="title panel-heading"><a href="[##_list_rep_link_##]">[##_list_rep_title_##]</a></dt>
+				<dd class="regdate panel-body"><i class="glyphicon glyph   icon-calendar"></i><time>[##_list_rep_regdate_##]</time>  <cite>by  [##_list_rep_author_##]</cite>   <cite class="count badge">[##_list_rep_rp_cnt_##]</cite></dd>
+			</dl>
+			";s:11:"commentList";s:269:" <!-- Replies List section ........................................................ -->
+	<section class="list comment">
+		<header>
+[##_SKIN_head_start_##]			<h2>[##_rplist_count_##] Comments</h2>
+		</header>
+		<article>
+			[##_rplist_rep_##]
+		</article>
+	</section>
+	";s:15:"commentListItem";s:286:"
+			<dl class="list-group panel panel-default">
+				<dt class="content panel-heading"><a href="[##_rplist_rep_link_##]">[##_rplist_rep_body_##]</a></dt>
+				<dd class="regdate panel-body"><time>[##_rplist_rep_regdate_##]</time>  <cite>by [##_rplist_rep_name_##]</cite></dd>
+			</dl>
+			";s:3:"rss";N;s:8:"rss_date";N;s:7:"rss_rep";N;s:11:"keywordItem";s:93:"
+				<li><a href="#void" onclick="[##_onclick_keyword_##]">[##_keyword_label_##]</a></li>
+			";s:12:"keywordGroup";N;s:7:"keyword";s:306:" <!-- Keyword list .......................................................... -->
+	<section class="keyword">
+		<header>
+[##_SKIN_head_start_##]			<hgroup>
+				<h1>Keywords</h1>
+				<h2>My keywords</h2>
+			</hgroup>
+		</header>
+		<article>
+			<ul>
+			[##_keyword_rep_##]
+			</ul>
+		</article>
+	</section>
+	";s:10:"noticeItem";s:835:" <!-- Notice and pages section ............................................ -->
+	<section class="notice pages post">
+		<header>
+[##_SKIN_head_start_##]			<h2><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h2>
+		</header>
+		<article>
+			[##_notice_rep_desc_##]
+		</article>
+	</section>
+	<section class="summary">
+		<article>
+			<dl class="dl-horizontal information">
+				<dt>Posted at</dt>
+				<dd class="posted date"><time>[##_notice_rep_date_##]</time></dd>
+				<dt>Last updated</dt>
+				<dd class="modified date"><time>[##_notice_rep_date_modified_##]</time></dd>
+				<dt>Author</dt>
+				<dd class="author"><cite><a href="[##_notice_rep_author_link_##]">[##_notice_rep_author_##]</a></cite></dd>
+				<dt>Filed under</dt>
+				<dd class="category"><a href="/notice">Notice</a></dd>
+			</dl>
+		</article>
+	</section>
+	";s:12:"recentNotice";s:142:"
+	<section id="recentNoticeWidget" class="widget">
+		<h3>Notices</h3>
+		<ol class="list-group">
+		[##_rct_notice_rep_##]
+		</ol>
+	</section>
+	";s:16:"recentNoticeItem";s:202:"
+			<li class="list-group-item">
+				<a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a>
+				<cite>By <a href="[##_notice_rep_author_link_##]">[##_notice_rep_author_##]</a></cite>
+			</li>
+		";s:8:"locative";s:371:" <!-- Location Log section .......................................................... -->
+	<section class="location">
+		<header>
+[##_SKIN_head_start_##]			<hgroup>
+				<h1>Log via location</a></h1>
+				<h2>Where posts are related to</h2>
+			</hgroup>
+		</header>
+		<article>
+			<dl>
+			[##_local_spot_rep_##]
+			[##_local_info_rep_##]
+			</dl>
+		</article>
+	</section>
+	";s:12:"locativeSpot";s:69:"
+				<dt class="[##_local_spot_depth_##]">[##_local_spot_##]</dt>
+			";s:13:"locativeEntry";s:171:"
+				<dd class="[##_local_info_depth_##]">
+					<a href="[##_local_info_link_##]">[##_local_info_title_##]</a>
+					<cite>by [##_local_info_author_##]</cite>
+				</dd>
+			";s:5:"guest";s:388:" <!-- Guestbook section .............................................................-->
+	<section class="guestbook write">
+		<header>
+[##_SKIN_head_start_##]			<hgroup>
+				<h1>Guestbook</h1>
+				<p>Leave your greetings</p>
+			</hgroup>
+		</header>
+		<article>
+			[##_guest_input_form_##]
+		</article>
+	</section>
+	<section class="guestbook logs">
+	[##_guest_container_##]
+	</section>
+	";s:9:"guestForm";s:277:"
+			<fieldset>
+			[##_guest_member_##]
+				<textarea name="[##_guest_textarea_body_##]" rows="10" cols="50" required="required"></textarea>
+
+				<button type="submit" class="submit button" value="Submit" onclick="[##_guest_onclick_submit_##]">Submit</button>
+			</fieldset>
+			";s:10:"guestGuest";s:672:"
+				<input type="text" id="[##_guest_input_name_##]" name="[##_guest_input_name_##]" value="[##_guest_name_##]" maxlength="20" required="required" />
+				<label for="[##_guest_input_name_##]">Your Name <em>(required)</em></label>
+
+				<input type="password" id="[##_guest_input_password_##]" name="[##_guest_input_password_##]" value="[##_guest_password_##]" required="required" />
+				<label for="[##_guest_input_password_##]">Password <em>(required)</em></label>
+
+				<input type="url" id="[##_guest_input_homepage_##]" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" />
+				<label for="[##_guest_input_homepage_##]">Your Website Address</label>
+				";s:11:"guestMember";s:227:"
+				[##_guest_form_##]
+				<input type="checkbox" id="[##_guest_input_is_secret_##]" name="[##_guest_input_is_secret_##]" class="checkbox" value="1" />
+				<label for="[##_guest_input_is_secret_##]">Leave as secret</label>
+			";s:14:"guestContainer";s:88:"
+		<article class="guestbook logs">
+			<dl>
+			[##_guest_rep_##]
+			</dl>
+		</article>
+	";s:9:"guestItem";s:573:"
+				<dt id="[##_guest_rep_id_##]" class="[##_guest_rep_class_##]">
+					<span class="vcard">[##_guest_rep_name_##]</span>
+				</dt>
+				<dd><time>[##_guest_rep_date_##]</time></dd>
+				<dd><command onclick="[##_guest_rep_onclick_delete_##]" label="Modify/Delete"><abbr title="Modify or Delete">M/D</abbr></command></dd>
+				<dd><command onclick="[##_guest_rep_onclick_reply_##]" label="Reply">Reply</command></dd>
+				<dd><a href="[##_guest_rep_link_##]" title="Permalink">Permalink</a></dd>
+				<dd><p>[##_guest_rep_desc_##]</p></dd>
+				[##_guest_reply_container_##]
+			";s:17:"guestSubContainer";s:33:"
+				[##_guest_reply_rep_##]
+				";s:12:"guestSubItem";s:514:"
+				<dd class="reply">
+					<dt id="[##_guest_rep_id_##]" class="[##_guest_rep_class_##]" label="Reply">
+						<span class="vcard">[##_guest_rep_name_##]</span>
+					</dt>
+					<dd><time>[##_guest_rep_date_##]</time></dd>
+					<dd><command onclick="[##_guest_rep_onclick_delete_##]" label="Modify/Delete" ><abbr title="Modify or Delete">M/D</abbr></command></dd>
+					<dd><a href="[##_guest_rep_link_##]" title="Permalink">Permalink</a></dd>
+					<dd>
+						<p>[##_guest_rep_desc_##]</p>
+					</dd>
+				</dd>
+				";s:6:"search";s:433:"
+			<div class="input-group input-group-sm">
+				<input type="text" placeholder="Search" class="form-control" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }" />
+				<span class="input-group-btn">
+					<button type="submit" onclick="[##_search_onclick_submit_##]" alt="Search" class="btn btn-default" value="Submit">Find!</button>
+				</span>
+			</div>
+		";s:11:"recentEntry";s:106:"
+			<h3>Recent Posts</h3>
+			<ol id="recentEntries" class="list-group">
+				[##_rctps_rep_##]
+			</ol>
+			";s:14:"recentComments";N;s:15:"recentTrackback";N;s:10:"management";s:1069:" <!-- Administration-only menus for post .................................. -->
+			<div class="row">
+			<div class="col-md-3">
+				Status: <strong>[##_s_ad_s1_label_##]</strong>
+			</div>
+			<div class="col-md-9 text-right">
+				<div class="btn-group">
+					<button type="button" class="btn btn-info btn-xs" onclick="[##_s_ad_s2_onclick_##]" label="[##_s_ad_s2_label_##]" class="button"><i class="fa fa-retweet"></i> Change Status</button>
+					<a class="btn btn-default btn-xs" href="[##_s_ad_m_link_##]" class="button"><i class="fa fa-edit"></i> Edit</a></button>
+					<button type="button" class="btn btn-default btn-xs" onclick="[##_s_ad_m_onclick_##]" class="button"><i class="fa fa-edit"></i> Edit (New window)</button>
+					<button type="button" class="btn btn-default btn-xs" onclick="[##_s_ad_t_onclick_##]" class="button"><i class="fa fa-reply"></i> Send trackback</button>
+					<button type="button" class="btn btn-danger btn-xs" onclick="[##_s_ad_d_onclick_##]" class="button"><i class="fa fa-trash-o"></i> Delete</button>
+				</div>
+			</div>
+			</div>
+			";s:14:"entryProtected";s:963:" <!-- Protected Posts section ...................................... -->
+	<section class="protected post">
+		<header>
+[##_SKIN_head_start_##]			<h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+			<ul>
+				<li class="date"><dfn>Posted</dfn> at <time>[##_article_rep_date_##]</time></li>
+				<li class="author"><dfn>Posted</dfn> by <cite><a href="[##_article_rep_author_link_##]">[##_article_rep_author_##]</a></cite></li>
+				<li class="category"><dfn>Filed</dfn> under <a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></li>
+			</ul>
+		</header>
+		<article>
+			<p>Please type the <em>correct password</em> to view this content.</p>
+			<input id="[##_article_password_##]" name="[##_article_password_##]" type="password" onkeydown="if (event.keyCode == 13) [##_article_dissolve_##]" />
+			<button type="button" class="submit button" value="Submit" onclick="[##_article_dissolve_##]" />
+		</article>
+	</section>
+	";s:5:"entry";s:2972:"<div class="hentry">
+ <!-- Post section ....................................................... -->
+	<section class="post [##_article_rep_category_body_id_##]">
+		<header>
+[##_SKIN_head_start_##]			<h2><a href="[##_article_rep_link_##]" class="entry-title" rel="bookmark" title="[##_article_rep_title_##]">[##_article_rep_title_##]</a></h2>
+		</header>
+		<article class="post [##_article_rep_category_body_id_##]">
+			[##_ad_div_##]
+			<div class="article-body entry-content">
+			[##_article_rep_desc_##]
+			</div>
+					<div style="display:none">
+					<abbr class="updated" title="[##_article_rep_microformat_updated_##]">[##_article_rep_date_##]</abbr>
+					<abbr class="published" title="[##_article_rep_microformat_published_##]">[##_article_rep_date_##]</abbr>
+					</div>
+		</article>
+	</section>
+	<section class="summary">
+		<article>
+			<dl class="dl-horizontal information">
+			    <dt>Posted at</dt>
+			    <dd class="posted date"><i class="glyphicon glyphicon-pencil"></i> <time>[##_article_rep_date_##]</time></dd>
+			    <dt>Last updated</dt>
+			    <dd class="modified date"><i class="glyphicon glyphicon-time"></i> <time>[##_article_rep_date_modified_##]</time></dd>
+			    <dt>Author</dt>
+			    <dd class="author"><i class="glyphicon glyphicon-user"></i> <cite><a href="[##_article_rep_author_link_##]">[##_article_rep_author_##]</a></cite></dd>
+			    <dt>Category</dt>
+			    <dd class="category"><i class="glyphicon glyphicon-list"></i>  <a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></dd>
+			    <dt>Track category via</dt>
+			    <dd class="category rss feed">
+				<a href="[##_article_rep_category_rssurl_##]" onclick="window.open(this.href); return false"><i class="fa fa-rss-square"></i> RSS 2.0 feed</a>
+				<a href="[##_article_rep_category_atomurl_##]" onclick="window.open(this.href); return false"><i class="fa fa-rss-square"></i> ATOM 1.0 feed</a>
+			    </dd>
+			    [##_tag_label_##]
+			</dl>
+			<dl class="dl-horizontal response">
+				<dt class="response">Leave Responses</dt>
+				<dd class="response">
+					<div class="btn-group">
+					<a id="[##_article_rep_tb_cnt_id_##]" href="#tb" onclick="[##_article_rep_tb_link_##]" label="Show/hide responses" class="btn btn-default btn-xs">
+					[##_tb_count_##]
+					</a>
+					<a id="[##_article_rep_rp_cnt_id_##]" href="#rp" onclick="[##_article_rep_rp_link_##]" title="Show/hide commments" class="btn btn-default btn-xs">
+					[##_rp_count_##]
+					</a>
+					</div>
+				</dd>
+				<dt class="feed">Track responses via</dt>
+				<dd class="feed">
+				    <a href="[##_article_rep_response_rssurl_##]" onclick="window.open(this.href); return false" class="rss feed"><i class="fa fa-rss-square"></i> RSS 2.0 feed</a>
+				    <a href="[##_article_rep_response_atomurl_##]" onclick="window.open(this.href); return false" class="atom feed"><i class="fa fa-rss-square"></i> ATOM 1.0 feed</a>
+				</dd>
+			</dl>
+		</article>
+	</section>
+
+	[##_tb_##]
+	[##_rp_##]
+	
+</div>";s:6:"paging";s:304:"
+	<div class="text-center">
+	<ul class="pagination pagination-sm">
+		<li [##_no_more_prev_##] class="previous"><a [##_prev_page_##] title="Previous page">&laquo;</a></li>
+		[##_paging_rep_##]
+		<li [##_no_more_next_##] class="next"><a [##_next_page_##] title="Next page">&raquo;</a></li>
+	</ul>
+	</div>
+	";s:10:"pagingItem";s:102:"
+		<li [##_paging_rep_item_prop_##]><a [##_paging_rep_link_##]>[##_paging_rep_link_num_##]</a></li>
+		";s:7:"archive";N;s:4:"s_ps";N;s:8:"s_ps_rep";N;s:7:"comment";s:128:" <!-- Comments  ............................................................. -->
+	[##_rp_container_##]
+	[##_rp_input_form_##]
+	";s:12:"commentCount";s:44:"<em>[##_article_rep_rp_cnt_##]</em> Comments";s:11:"commentForm";s:610:" <!-- Write form for comments	...................................... -->
+	<section class="write comments">
+		<header>
+[##_SKIN_head_start_##]			<hgroup>
+				<h1>Comments</h1>
+				<h2>Leave your comment</h2>
+			</hgroup>
+		</header>
+		<article>
+		<fieldset>
+		[##_rp_member_##]
+			<div class="form-group form-group-lg">
+				<textarea class="form-control" name="[##_rp_input_comment_##]" rows="10" cols="65"></textarea>
+				<button type="submit" class="btn btn-success btn-block submit button" value="Submit" onclick="[##_rp_onclick_submit_##]">Submit</button>
+			</div>
+		</fieldset>
+		</article>
+	</section>
+	";s:12:"commentGuest";s:1454:"
+			<div class="form-group form-group-lg">
+				<label class="control-label col-sm-3" for="[##_rp_input_name_##]_[##_article_rep_id_##]">Your Name <em>(required)</em></label>
+				<div class="col-sm-9">
+					<input class="form-control" type="text" id="[##_rp_input_name_##]_[##_article_rep_id_##]" name="[##_rp_input_name_##]" value="[##_guest_name_##]" maxlength="20" required="required" placeholder="Name (required)"/>
+				</div>
+			</div>
+			<div class="clearfix visible-xs-block"></div>
+			<div class="form-group form-group-lg">
+				<label class="control-label col-sm-3" for="[##_rp_input_password_##]_[##_article_rep_id_##]">Password <em>(required)</em></label>
+				<div class="col-sm-9">
+					<input class="form-control" type="password" id="[##_rp_input_password_##]_[##_article_rep_id_##]" name="[##_rp_input_password_##]" value="[##_rp_admin_check_##]" required="required" placeholder="Password (required)" />
+				</div>
+			</div>
+			<div class="clearfix visible-xs-block"></div>
+			<div class="form-group form-group-lg">
+				<label class="control-label col-sm-3" for="[##_rp_input_homepage_##]_[##_article_rep_id_##]">Your Website Address</label>
+				<div class="col-sm-9">
+					<input class="form-control" type="url" id="[##_rp_input_homepage_##]_[##_article_rep_id_##]" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]" placeholder="Your Website Address" />
+				</div>
+			</div>
+			<div class="clearfix visible-xs-block"></div>
+			";s:13:"commentMember";s:320:"
+			[##_rp_guest_##]
+			<div class="form-group form-group-lg checkbox">
+				<label>
+					<input type="checkbox" class="checkbox" id="[##_rp_input_is_secret_##]_[##_article_rep_id_##]" name="[##_rp_input_is_secret_##]" value="1" />Leave as secret
+				</label>
+			</div>
+			<div class="clearfix visible-xs-block"></div>
+		";s:16:"commentContainer";s:346:"
+	<section class="comments">
+		<header>
+[##_SKIN_head_start_##]			<hgroup>
+				<h1>Comments</h1>
+				<h2><button type="button" class="btn btn-default btn-sm"><a  href="[##_article_rep_rp_atomurl_##]">ATOM Feed Link</a></button></h2>
+			</hgroup>
+		</header>
+		<article>
+		<dl class="comments">
+		[##_rp_rep_##]
+		</dl>
+		</article>
+	</section>
+	";s:11:"commentItem";s:1048:"
+			<dt id="[##_rp_rep_id_##]" class="[##_rp_rep_class_##]">
+				<cite><strong class="vcard">[##_rp_rep_name_##]</strong></cite>
+			</dt>
+			<dd class="regdate"><time>[##_rp_rep_date_##]</time></dd>
+			<dd class="permalink"><a href="[##_rp_rep_link_##]" title="Permanent link" class="button btn btn-info btn-sm">Permalink</a></dd>
+<!--			<dd class="delete"><command onclick="[##_rp_rep_onclick_delete_##]" label="Modify/Delete" class="button"><abbr title="Modify or Delete">M/D</abbr></command></dd> -->
+			<dd class="delete"><a href="#" onclick="[##_rp_rep_onclick_delete_##]" label="Modify/Delete" class="button btn btn-warning btn-sm"><abbr title="Modify or Delete">M/D</abbr></a></dd>
+<!--			<dd class="write"><command onclick="[##_rp_rep_onclick_reply_##]" label="Write reply" class="button">Reply</command></dd>-->
+			<dd class="write"><a href="#" onclick="[##_rp_rep_onclick_reply_##]" label="Write reply" class="button btn btn-success btn-sm">Reply</a></dd>
+			<dd class="content"><p>[##_rp_rep_desc_##]</p></dd>
+			[##_rp2_container_##]
+		";s:19:"commentSubContainer";s:55:"
+			<dd class="reply">
+				[##_rp2_rep_##]
+			</dd>
+			";s:14:"commentSubItem";s:796:"
+				<dl class="reply">
+					<dt id="[##_rp_rep_id_##]" class="[##_rp_rep_class_##]">
+						<cite><strong class="vcard">[##_rp_rep_name_##]</strong></cite>
+					</dt>
+					<dd class="regdate"><time>[##_rp_rep_date_##]</time></dd>
+					<dd class="permalink"><a href="[##_rp_rep_link_##]" title="Permanent link" class="button btn btn-info btn-sm">Permalink</a></dd>
+<!--					<dd class="delete"><command onclick="[##_rp_rep_onclick_delete_##]" title="Modify/Delete" class="button"><abbr title="Modify or Delete">M/D</abbr></command></dd>-->
+					<dd class="delete"><a href="#" onclick="[##_rp_rep_onclick_delete_##]" title="Modify/Delete" class="button btn btn-warning btn-sm"><abbr title="Modify or Delete">M/D</abbr></a></dd>
+					<dd class="content"><p>[##_rp_rep_desc_##]</p></dd>
+				</dl>
+				";s:10:"trackbacks";s:105:" <!-- Trackback lists ....................................................... -->
+	[##_tb_container_##]
+	";s:18:"trackbackContainer";s:282:" <!-- Trackback list container …................................. -->
+	<section class="trackbacks list">
+		<header>
+[##_SKIN_head_start_##]			<h3>Trackbacks List</h3>
+		</header>
+		<article>
+			<dl class="panel panel-default">
+		[##_tb_rep_##]
+			</dl>
+		</article>
+	</section>
+	";s:9:"trackback";s:445:"
+			<dt id="[##_tb_rep_id_##]" class="panel-heading">
+				<h4><a href="[##_tb_rep_url_##]" onclick="window.open(this.href); return false" rel="external nofollow">[##_tb_rep_title_##]</a></h4>
+			</dt>
+			<dd class="trackbacked url panel-body"><dfn>Tracked</dfn> from <cite>[##_tb_rep_site_##]</cite></dd>
+			<dd class="regdate panel-body"><time>[##_tb_rep_date_##]</time></dd>
+			<dd class="content panel-body"><p>[##_tb_rep_desc_##]</p></dd>
+		";s:14:"trackbackCount";s:46:"<em>[##_article_rep_tb_cnt_##]</em> Trackbacks";s:8:"tagLabel";s:120:"
+			    <dt>Tags</dt>
+			    <dd class="tag"><i class="glyphicon glyphicon-tags"></i> [##_tag_label_rep_##]</dd>
+			    ";s:7:"siteTag";s:297:" <!-- Tag list section ................................................................ -->
+	<section class="tag">
+		<header>
+[##_SKIN_head_start_##]			<hgroup>
+				<h1>Tag Cloud</h1>
+			</hgroup>
+		</header>
+		<article>
+			<ul class="tags">
+			[##_tag_rep_##]
+			</ul>
+		</article>
+	</section>
+	";s:11:"siteTagItem";s:92:"
+				<li><a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a></li>					";s:10:"randomTags";s:93:"
+				<li><a href="[##_tag_link_##]" class="[##_tag_class_##]"> [##_tag_name_##]</a></li>
+				";s:10:"s_link_rep";N;s:9:"pageError";N;s:9:"pageTitle";s:27:" :: [##_page_post_title_##]";s:3:"aux";N;s:19:"sidebarBasicModules";a:1:{i:0;a:6:{i:0;a:2:{s:5:"title";s:16:"Name card widget";s:4:"body";s:297:"
+	<!-- Name card widget -->
+		<section id="namecardWidget" class="widget text-center">
+			<div class="thumbnail">
+				<img src="http://mypages.co.kr/resources/image/spacer.gif" alt="Namecard image" />
+				<div class="caption">
+					<strong></strong><br>toughskg
+				</div>
+			</div>
+		</section>
+	";}i:1;a:2:{s:5:"title";s:16:"Tag Cloud widget";s:4:"body";s:270:"
+	<!-- Tag Cloud widget -->
+		<section id="tagcloudWidget" class="widget">
+			<h3>Tag Cloud</h3>
+			<ul class="tags">
+				<s_random_tags>
+				<li><a href="[##_tag_link_##]" class="[##_tag_class_##]"> [##_tag_name_##]</a></li>
+				</s_random_tags>
+			</ul>
+		</section>
+	";}i:2;a:2:{s:5:"title";s:7:"Notices";s:4:"body";s:410:"
+	<!-- Notices -->
+	<s_rct_notice>
+	<section id="recentNoticeWidget" class="widget">
+		<h3>Notices</h3>
+		<ol class="list-group">
+		<s_rct_notice_rep>
+			<li class="list-group-item">
+				<a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a>
+				<cite>By <a href="[##_notice_rep_author_link_##]">[##_notice_rep_author_##]</a></cite>
+			</li>
+		</s_rct_notice_rep>
+		</ol>
+	</section>
+	</s_rct_notice>
+	";}i:3;a:2:{s:5:"title";s:13:"Search widget";s:4:"body";s:541:"
+	<!-- Search widget -->
+		<section id="searchWidget" class="widget">
+		<s_search>
+			<div class="input-group input-group-sm">
+				<input type="text" placeholder="Search" class="form-control" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }" />
+				<span class="input-group-btn">
+					<button type="submit" onclick="[##_search_onclick_submit_##]" alt="Search" class="btn btn-default" value="Submit">Find!</button>
+				</span>
+			</div>
+		</s_search>
+		</section>
+	";}i:4;a:2:{s:5:"title";s:17:"Categories widget";s:4:"body";s:138:"
+	<!-- Categories widget -->
+		<section id="categoryWidget" class="widget">
+			<h3>Categories</h3>
+			[##_category_list_##]
+		</section>
+	";}i:5;a:2:{s:5:"title";s:19:"Recent posts widget";s:4:"body";s:497:"
+	<!-- Recent posts widget -->
+		<section id="recentPostWidget" class="widget">
+			<s_rctps>
+			<h3>Recent Posts</h3>
+			<ol id="recentEntries" class="list-group">
+				<s_rctps_rep>
+				<li class="list-group-item"><a href="[##_rctps_rep_link_##]">
+						[##_rctps_rep_title_##] <span class="count badge">[##_rctps_rep_rp_cnt_##]</span></a>
+						by <cite><a href="[##_rctps_rep_author_link_##]">[##_rctps_rep_author_##]</a></cite>
+				</li>
+				</s_rctps_rep>
+			</ol>
+			</s_rctps>
+		</section>
+	";}}}s:14:"sidebarStorage";a:0:{}s:22:"sidebarOriginalContent";a:1:{i:0;s:2401:"
+	<s_sidebar_element>
+	<!-- Name card widget -->
+		<section id="namecardWidget" class="widget text-center">
+			<div class="thumbnail">
+				<img src="http://mypages.co.kr/resources/image/spacer.gif" alt="Namecard image" />
+				<div class="caption">
+					<strong></strong><br>toughskg
+				</div>
+			</div>
+		</section>
+	</s_sidebar_element>
+	<s_sidebar_element>
+	<!-- Tag Cloud widget -->
+		<section id="tagcloudWidget" class="widget">
+			<h3>Tag Cloud</h3>
+			<ul class="tags">
+				<s_random_tags>
+				<li><a href="[##_tag_link_##]" class="[##_tag_class_##]"> [##_tag_name_##]</a></li>
+				</s_random_tags>
+			</ul>
+		</section>
+	</s_sidebar_element>
+	<s_sidebar_element>
+	<!-- Notices -->
+	<s_rct_notice>
+	<section id="recentNoticeWidget" class="widget">
+		<h3>Notices</h3>
+		<ol class="list-group">
+		<s_rct_notice_rep>
+			<li class="list-group-item">
+				<a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a>
+				<cite>By <a href="[##_notice_rep_author_link_##]">[##_notice_rep_author_##]</a></cite>
+			</li>
+		</s_rct_notice_rep>
+		</ol>
+	</section>
+	</s_rct_notice>
+	</s_sidebar_element>
+	<s_sidebar_element>
+	<!-- Search widget -->
+		<section id="searchWidget" class="widget">
+		<s_search>
+			<div class="input-group input-group-sm">
+				<input type="text" placeholder="Search" class="form-control" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }" />
+				<span class="input-group-btn">
+					<button type="submit" onclick="[##_search_onclick_submit_##]" alt="Search" class="btn btn-default" value="Submit">Find!</button>
+				</span>
+			</div>
+		</s_search>
+		</section>
+	</s_sidebar_element>
+	<s_sidebar_element>
+	<!-- Categories widget -->
+		<section id="categoryWidget" class="widget">
+			<h3>Categories</h3>
+			[##_category_list_##]
+		</section>
+	</s_sidebar_element>
+	<s_sidebar_element>
+	<!-- Recent posts widget -->
+		<section id="recentPostWidget" class="widget">
+			<s_rctps>
+			<h3>Recent Posts</h3>
+			<ol id="recentEntries" class="list-group">
+				<s_rctps_rep>
+				<li class="list-group-item"><a href="[##_rctps_rep_link_##]">
+						[##_rctps_rep_title_##] <span class="count badge">[##_rctps_rep_rp_cnt_##]</span></a>
+						by <cite><a href="[##_rctps_rep_author_link_##]">[##_rctps_rep_author_##]</a></cite>
+				</li>
+				</s_rctps_rep>
+			</ol>
+			</s_rctps>
+		</section>
+	</s_sidebar_element>
+	";}s:11:"sidebarName";a:1:{i:0;s:14:"사이드바 1";}s:5:"cover";N;s:9:"coverpage";N;s:21:"coverpageBasicModules";a:1:{i:0;a:0:{}}s:16:"coverpageStorage";a:0:{}s:24:"coverpageOriginalContent";a:0:{}s:13:"coverpageName";a:1:{i:0;s:6:"표지";}s:4:"line";s:566:" <!-- Line List section .............................................................. -->
+	<section class="line">
+		<header>
+[##_SKIN_head_start_##]			<hgroup>
+				<h1>Lines</h1>
+				<h2>Instant myself</h2>
+			</hgroup>
+			<a href="[##_line_rssurl_##]"><img src="http://mypages.co.kr/skin/default/lucid/images/rss_12.png" alt="RSS Icon" /></a>
+			<a href="[##_line_atomurl_##]"><img src="http://mypages.co.kr/skin/default/lucid/images/atom_12.png" alt="ATOM Icon" /></a>
+		</header>
+		<article>
+			[##_line_rep_##]
+			[##_line_button_##]
+		</article>
+	</section>
+	";s:8:"lineItem";s:381:"
+			<dl>
+				<dt class="regdate"><time datetime="[##_line_rep_regdate_##]">[##_line_rep_regdate_##]</time></dt>
+				<dd class="content">[##_line_rep_content_##]</dd>
+				<dd class="author">[##_line_rep_author_##]. </dd>
+				<dd class="source">Streamed from [##_line_rep_source_##].</dd>
+				<dd class="permalink"><a href="[##_line_rep_permalink_##]">Permalink</a></dd>
+			</dl>
+			";s:10:"lineButton";s:114:"
+				<input type="submit" class="more-button input-button" value="More" onclick="[##_line_onclick_more_##]" />
+			";s:18:"noneCommentMessage";s:0:"";s:20:"singleCommentMessage";s:0:"";s:20:"noneTrackbackMessage";s:0:"";s:22:"singleTrackbackMessage";s:0:"";s:16:"microformatDebug";a:11:{i:0;s:83:"Microformat-info: 스킨에 가능한 모든 마이크로포맷을 추가합니다.";i:1;s:62:"Microformat-info: 제목에 hAtom용 title을 추가합니다.";i:2;s:54:"Microformat-info: hAtom용 content를 추가합니다.";i:3;s:98:"Microformat-info: hAtom용 발행일(published,updated)을 보이지 않게 추가하였습니다.";i:4;s:206:"Microformat-info: class="author"를 사용한 스킨입니다. hAtom용 author는 삽입하지 않았습니다. 주의: 스킨에 사용된 author의 용도가 마이크로포맷과 다를 수 있습니다.";i:5;s:145:"Microformat-info: 블로그 글영역 전체를 hAtom용 entry로 간주합니다. 적절한 class="hentry" 삽입이 필요할 수 있습니다.";i:6;s:55:"Microformat-info: 제목에 bookmark를 추가합니다";i:7;s:68:"Microformat-info: 댓글 영역에 class="vcard"를 삽입합니다.";i:8;s:78:"Microformat-info: 댓글의 댓글 영역에 class="vcard"를 삽입합니다.";i:9;s:130:"Microformat-info: 방명록 작성자를 감싸고 있는 태그가 없어 span으로 감싼 뒤 class="vcard"를 추가합니다.";i:10;s:140:"Microformat-info: 방명록의 댓글 작성자를 감싸고 있는 태그가 없어 span으로 감싼 뒤 class="vcard"를 추가합니다.";}s:13:"hentryExisted";b:1;s:9:"dressTags";a:202:{i:0;s:15:"SKIN_html_start";i:1;s:15:"SKIN_head_start";i:2;s:15:"page_post_title";i:3;s:24:"meta_http_equiv_keywords";i:4;s:13:"SKIN_head_end";i:5;s:7:"body_id";i:6;s:15:"SKIN_body_start";i:9;s:12:"list_conform";i:10;s:13:"list_atom_url";i:11;s:10:"list_count";i:12;s:13:"list_rep_link";i:13;s:14:"list_rep_title";i:14;s:16:"list_rep_regdate";i:15;s:15:"list_rep_author";i:16;s:15:"list_rep_rp_cnt";i:18;s:12:"rplist_count";i:19;s:15:"rplist_rep_link";i:20;s:15:"rplist_rep_body";i:21;s:18:"rplist_rep_regdate";i:22;s:15:"rplist_rep_name";i:24;s:12:"tblist_count";i:25;s:14:"tblist_conform";i:26;s:15:"tblist_rep_link";i:27;s:18:"tblist_rep_subject";i:29;s:18:"tblist_rep_regdate";i:30;s:15:"tblist_rep_name";i:31;s:15:"tblist_rep_body";i:33;s:11:"line_rssurl";i:34;s:12:"line_atomurl";i:35;s:16:"line_rep_regdate";i:37;s:16:"line_rep_content";i:38;s:15:"line_rep_author";i:39;s:15:"line_rep_source";i:40;s:18:"line_rep_permalink";i:41;s:17:"line_onclick_more";i:43;s:16:"local_spot_depth";i:44;s:10:"local_spot";i:45;s:16:"local_info_depth";i:46;s:15:"local_info_link";i:47;s:16:"local_info_title";i:48;s:17:"local_info_author";i:50;s:8:"tag_link";i:51;s:9:"tag_class";i:52;s:8:"tag_name";i:54;s:16:"guest_input_name";i:56;s:10:"guest_name";i:58;s:20:"guest_input_password";i:60;s:14:"guest_password";i:62;s:20:"guest_input_homepage";i:64;s:14:"guest_homepage";i:66;s:21:"guest_input_is_secret";i:69;s:19:"guest_textarea_body";i:70;s:20:"guest_onclick_submit";i:71;s:12:"guest_rep_id";i:72;s:15:"guest_rep_class";i:73;s:14:"guest_rep_name";i:74;s:14:"guest_rep_date";i:75;s:24:"guest_rep_onclick_delete";i:76;s:23:"guest_rep_onclick_reply";i:77;s:14:"guest_rep_link";i:78;s:14:"guest_rep_desc";i:87;s:15:"onclick_keyword";i:88;s:13:"keyword_label";i:90;s:16:"keylog_rep_title";i:91;s:15:"keylog_rep_desc";i:93;s:15:"notice_rep_link";i:94;s:16:"notice_rep_title";i:95;s:15:"notice_rep_desc";i:96;s:15:"notice_rep_date";i:97;s:24:"notice_rep_date_modified";i:98;s:22:"notice_rep_author_link";i:99;s:17:"notice_rep_author";i:101;s:13:"page_rep_link";i:102;s:14:"page_rep_title";i:103;s:13:"page_rep_desc";i:104;s:13:"page_rep_date";i:105;s:22:"page_rep_date_modified";i:106;s:20:"page_rep_author_link";i:107;s:15:"page_rep_author";i:109;s:16:"article_rep_link";i:110;s:17:"article_rep_title";i:111;s:16:"article_rep_date";i:112;s:23:"article_rep_author_link";i:113;s:18:"article_rep_author";i:114;s:25:"article_rep_category_link";i:115;s:20:"article_rep_category";i:116;s:16:"article_password";i:118;s:16:"article_dissolve";i:120;s:28:"article_rep_category_body_id";i:125;s:13:"s_ad_s1_label";i:126;s:15:"s_ad_s2_onclick";i:127;s:13:"s_ad_s2_label";i:128;s:11:"s_ad_m_link";i:129;s:14:"s_ad_m_onclick";i:130;s:14:"s_ad_t_onclick";i:131;s:14:"s_ad_d_onclick";i:132;s:16:"article_rep_desc";i:134;s:25:"article_rep_date_modified";i:139;s:27:"article_rep_category_rssurl";i:140;s:28:"article_rep_category_atomurl";i:141;s:13:"tag_label_rep";i:142;s:21:"article_rep_tb_cnt_id";i:143;s:19:"article_rep_tb_link";i:144;s:18:"article_rep_tb_cnt";i:145;s:21:"article_rep_rp_cnt_id";i:146;s:19:"article_rep_rp_link";i:147;s:18:"article_rep_rp_cnt";i:148;s:27:"article_rep_response_rssurl";i:149;s:28:"article_rep_response_atomurl";i:151;s:9:"tb_rep_id";i:152;s:10:"tb_rep_url";i:153;s:12:"tb_rep_title";i:154;s:11:"tb_rep_site";i:155;s:11:"tb_rep_date";i:156;s:11:"tb_rep_desc";i:158;s:22:"article_rep_rp_atomurl";i:159;s:9:"rp_rep_id";i:160;s:12:"rp_rep_class";i:161;s:11:"rp_rep_name";i:162;s:11:"rp_rep_date";i:163;s:11:"rp_rep_link";i:164;s:21:"rp_rep_onclick_delete";i:166;s:20:"rp_rep_onclick_reply";i:168;s:11:"rp_rep_desc";i:178;s:13:"rp_input_name";i:179;s:14:"article_rep_id";i:184;s:17:"rp_input_password";i:189;s:14:"rp_admin_check";i:190;s:17:"rp_input_homepage";i:196;s:18:"rp_input_is_secret";i:199;s:16:"rp_input_comment";i:200;s:17:"rp_onclick_submit";i:201;s:12:"no_more_prev";i:202;s:9:"prev_page";i:203;s:20:"paging_rep_item_prop";i:204;s:15:"paging_rep_link";i:205;s:19:"paging_rep_link_num";i:206;s:12:"no_more_next";i:207;s:9:"next_page";i:215;s:11:"search_name";i:216;s:11:"search_text";i:217;s:21:"search_onclick_submit";i:219;s:13:"category_list";i:220;s:14:"rctps_rep_link";i:221;s:15:"rctps_rep_title";i:222;s:16:"rctps_rep_rp_cnt";i:223;s:21:"rctps_rep_author_link";i:224;s:16:"rctps_rep_author";i:225;s:13:"SKIN_body_end";i:226;s:13:"SKIN_html_end";i:227;s:8:"line_rep";i:228;s:11:"line_button";i:229;s:4:"line";i:230;s:8:"list_rep";i:231;s:4:"list";i:232;s:10:"rplist_rep";i:233;s:6:"rplist";i:234;s:10:"tblist_rep";i:235;s:6:"tblist";i:236;s:11:"keyword_rep";i:237;s:7:"keyword";i:238;s:10:"notice_rep";i:239;s:10:"keylog_rep";i:240;s:14:"rct_notice_rep";i:241;s:10:"rct_notice";i:242;s:14:"local_info_rep";i:243;s:14:"local_spot_rep";i:244;s:5:"local";i:245;s:21:"guest_reply_container";i:246;s:15:"guest_reply_rep";i:247;s:15:"guest_container";i:248;s:9:"guest_rep";i:249;s:10:"guest_form";i:250;s:12:"guest_member";i:251;s:16:"guest_input_form";i:252;s:5:"guest";i:253;s:17:"article_protected";i:254;s:6:"ad_div";i:255;s:8:"tb_count";i:256;s:8:"rp_count";i:257;s:12:"tb_container";i:258;s:6:"tb_rep";i:259;s:2:"tb";i:260;s:9:"tag_label";i:261;s:7:"tag_rep";i:262;s:3:"tag";i:263;s:11:"random_tags";i:264;s:13:"rp2_container";i:265;s:7:"rp2_rep";i:266;s:12:"rp_container";i:267;s:6:"rp_rep";i:268;s:8:"rp_guest";i:269;s:9:"rp_member";i:270;s:13:"rp_input_form";i:271;s:2:"rp";i:272;s:11:"article_rep";i:273;s:10:"paging_rep";i:274;s:6:"paging";i:275;s:6:"search";i:276;s:9:"rctps_rep";i:277;s:5:"rctps";i:278;s:10:"page_title";}s:5:"cache";O:9:"pageCache":17:{s:4:"pool";O:7:"DBModel":17:{s:14:" * _attributes";a:0:{}s:14:" * _qualifiers";a:2:{s:6:"blogid";a:1:{i:0;i:1;}s:4:"name";a:1:{i:0;s:17:"'skinCache-lucid'";}}s:9:" * _query";s:115:"REPLACE INTO tc_PageCacheLog (blogid,name,value) VALUES(1,'PluginSettings','a:2:{s:5:\"owner\";N;s:4:\"user\";N;}')";s:13:" * _relations";a:2:{s:6:"blogid";a:1:{i:0;s:1:"=";}s:4:"name";a:1:{i:0;s:1:"=";}}s:9:" * _glues";a:0:{}s:11:" * _filters";a:0:{}s:9:" * _order";a:0:{}s:14:" * _limitation";N;s:8:" * table";s:15:"tc_PageCacheLog";s:5:" * id";N;s:17:" * _querysetCount";i:0;s:18:" * _reservedFields";N;s:14:" * _isReserved";a:0:{}s:8:" * param";a:0:{}s:7:"context";O:13:"Model_Context":2:{s:25:" Model_Context __property";a:135:{s:19:"global.backend_name";s:5:"mysql";s:15:"database.server";s:9:"localhost";s:17:"database.database";s:8:"toughskg";s:17:"database.username";s:8:"toughskg";s:17:"database.password";s:8:"shin8520";s:15:"database.prefix";s:3:"tc_";s:13:"database.dbms";s:5:"MySQL";s:13:"database.port";s:4:"3306";s:12:"service.type";s:6:"single";s:14:"service.domain";s:13:"mypages.co.kr";s:12:"service.path";s:0:"";s:12:"service.skin";s:10:"periwinkle";s:29:"service.favicon_daily_traffic";i:10;s:14:"service.useSSL";b:0;s:15:"service.timeout";i:900;s:16:"service.language";s:2:"ko";s:16:"service.timezone";s:10:"Asia/Seoul";s:16:"service.encoding";s:5:"UTF-8";s:13:"service.umask";i:0;s:16:"service.fancyURL";i:2;s:21:"service.useEncodedURL";b:0;s:17:"service.debugmode";b:0;s:14:"service.reader";b:1;s:27:"service.flashclipboardpoter";b:1;s:34:"service.allowBlogVisibilitySetting";b:1;s:30:"service.disableEolinSuggestion";b:1;s:17:"service.interface";s:6:"detail";s:17:"service.pagecache";b:1;s:17:"service.codecache";b:0;s:17:"service.skincache";b:1;s:25:"service.externalresources";b:0;s:21:"service.flashuploader";b:1;s:26:"service.debug_session_dump";b:0;s:28:"service.debug_rewrite_module";b:0;s:26:"service.useNumericURLonRSS";b:0;s:20:"service.forceinstall";b:0;s:21:"service.cookie_prefix";s:12:"Textcube1107";s:27:"service.session_cookie_path";s:1:"/";s:20:"service.resourcepath";s:10:"/resources";s:29:"service.session_cookie_domain";s:13:"mypages.co.kr";s:18:"database.connected";b:1;s:8:"uri.host";s:20:"http://mypages.co.kr";s:12:"uri.fullpath";s:1:"/";s:12:"uri.position";s:12:"/rewrite.php";s:8:"uri.root";s:1:"/";s:9:"uri.input";s:0:"";s:12:"uri.fragment";a:1:{i:0;s:0:"";}s:17:"uri.interfaceType";s:4:"blog";s:17:"uri.interfacePath";s:19:"interface/index.php";s:18:"uri.interfaceRoute";s:10:"interface/";s:19:"uri.isStrictBlogURL";b:1;s:11:"uri.service";s:20:"http://mypages.co.kr";s:8:"uri.path";s:0:"";s:11:"uri.default";s:20:"http://mypages.co.kr";s:8:"uri.base";s:0:"";s:8:"uri.blog";s:0:"";s:10:"uri.folder";s:0:"";s:13:"uri.permalink";s:20:"http://mypages.co.kr";s:13:"uri.basicblog";s:0:"";s:9:"blog.name";s:8:"toughskg";s:13:"blog.language";s:2:"ko";s:17:"blog.blogLanguage";s:2:"ko";s:13:"blog.timezone";s:10:"Asia/Seoul";s:18:"blog.defaultEditor";s:7:"tinyMCE";s:21:"blog.defaultFormatter";s:4:"ttml";s:21:"blog.acceptTrackbacks";s:1:"1";s:19:"blog.acceptComments";s:1:"1";s:18:"blog.defaultDomain";s:1:"0";s:10:"blog.title";s:0:"";s:16:"blog.description";s:0:"";s:9:"blog.logo";s:0:"";s:14:"blog.logoLabel";s:0:"";s:14:"blog.logoWidth";s:1:"0";s:15:"blog.logoHeight";s:1:"0";s:14:"blog.frontpage";s:5:"entry";s:26:"blog.useFeedViewOnCategory";s:1:"1";s:20:"blog.useSloganOnPost";s:1:"1";s:24:"blog.useSloganOnCategory";s:1:"1";s:19:"blog.useSloganOnTag";s:1:"1";s:18:"blog.entriesOnPage";s:2:"10";s:18:"blog.entriesOnList";s:2:"10";s:17:"blog.entriesOnRSS";s:2:"10";s:18:"blog.commentsOnRSS";s:2:"10";s:22:"blog.publishWholeOnRSS";s:1:"1";s:26:"blog.publishEolinSyncOnRSS";s:1:"1";s:26:"blog.allowWriteOnGuestbook";s:1:"1";s:36:"blog.allowWriteDblCommentOnGuestbook";s:1:"1";s:15:"blog.visibility";s:1:"2";s:23:"blog.noneCommentMessage";s:0:"";s:25:"blog.singleCommentMessage";s:0:"";s:25:"blog.noneTrackbackMessage";s:0:"";s:27:"blog.singleTrackbackMessage";s:0:"";s:17:"blog.sidebarOrder";s:1113:"a:2:{i:0;a:13:{i:0;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"0";}i:1;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"1";}i:2;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"2";}i:3;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"3";}i:4;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"4";}i:5;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"5";}i:6;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"6";}i:7;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"7";}i:8;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"8";}i:9;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:1:"9";}i:10;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:2:"10";}i:11;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:2:"11";}i:12;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"0";s:10:"parameters";s:2:"12";}}i:1;a:2:{i:0;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"1";s:10:"parameters";s:1:"0";}i:1;a:3:{s:4:"type";s:1:"1";s:2:"id";s:1:"1";s:10:"parameters";s:1:"1";}}}";s:17:"blog.centerLayout";s:155:"a:3:{i:0;a:1:{s:6:"plugin";s:22:"defaultDashboardWidget";}i:1;a:1:{s:6:"plugin";s:17:"TextcubeSeparator";}i:2;a:1:{s:6:"plugin";s:17:"TextcubeSeparator";}}";s:7:"blog.id";i:1;s:19:"blog.primaryBlogURL";s:20:"http://mypages.co.kr";s:21:"blog.secondaryBlogURL";N;s:9:"skin.skin";s:5:"lucid";s:11:"skin.blogid";s:1:"1";s:20:"skin.entriesOnRecent";s:1:"5";s:20:"skin.noticesOnRecent";s:1:"5";s:21:"skin.commentsOnRecent";s:1:"5";s:24:"skin.commentsOnGuestbook";s:1:"5";s:20:"skin.commentsOnEntry";s:2:"15";s:19:"skin.archivesOnPage";s:1:"5";s:17:"skin.tagsOnTagbox";s:2:"30";s:16:"skin.tagboxAlign";s:1:"3";s:23:"skin.trackbacksOnRecent";s:1:"5";s:18:"skin.expandComment";s:1:"1";s:20:"skin.expandTrackback";s:1:"1";s:19:"skin.sortCommentsBy";s:3:"ASC";s:23:"skin.recentNoticeLength";s:2:"25";s:22:"skin.recentEntryLength";s:2:"30";s:24:"skin.recentCommentLength";s:2:"30";s:26:"skin.recentTrackbackLength";s:2:"30";s:15:"skin.linkLength";s:2:"30";s:23:"skin.showListOnCategory";s:1:"1";s:22:"skin.showListOnArchive";s:1:"1";s:18:"skin.showListOnTag";s:1:"1";s:21:"skin.showListOnAuthor";s:1:"1";s:21:"skin.showListOnSearch";s:1:"1";s:9:"skin.tree";s:4:"base";s:16:"skin.colorOnTree";s:6:"000000";s:18:"skin.bgColorOnTree";s:0:"";s:22:"skin.activeColorOnTree";s:6:"FFFFFF";s:24:"skin.activeBgColorOnTree";s:6:"00ADEF";s:22:"skin.labelLengthOnTree";s:2:"27";s:20:"skin.showValueOnTree";s:1:"1";s:17:"skin.contentWidth";s:3:"650";s:8:"suri.url";s:1:"/";s:10:"suri.value";s:0:"";s:14:"suri.directive";s:1:"/";s:9:"suri.page";i:1;s:16:"blog.displaymode";s:6:"mobile";s:13:"blog.workmode";s:8:"standard";}s:26:" Model_Context __namespace";N;}s:6:"_limit";a:0:{}s:18:"_reservedFunctions";a:1:{i:0;s:16:"UNIX_TIMESTAMP()";}}s:7:"context";r:341;s:5:"error";s:14:"no file exists";s:14:"_fileCacheOnly";N;s:11:"_dbContents";N;s:10:"dbContents";N;s:8:"contents";N;s:21:"absoluteFilePathGuest";s:67:"/home/hosting_users/toughskg/www/cache/pageCache/1/2382806316.cache";s:21:"absoluteFilePathOwner";s:66:"/home/hosting_users/toughskg/www/cache/pageCache/1/329345630.cache";s:16:"absoluteFilePath";s:67:"/home/hosting_users/toughskg/www/cache/pageCache/1/2382806316.cache";s:13:"filenameGuest";s:16:"2382806316.cache";s:13:"filenameOwner";s:15:"329345630.cache";s:8:"filename";s:16:"2382806316.cache";s:13:"realNameGuest";s:17:"skinCache-lucid_1";s:13:"realNameOwner";s:23:"skinCache-lucid_1_owner";s:8:"realName";s:15:"skinCache-lucid";s:4:"name";s:15:"skinCache-lucid";}s:9:"coverItem";N;s:17:"trackbackListItem";s:418:"
+			<dl class="list-group panel panel-default">
+				<dt class="content panel-heading"><a href="[##_tblist_rep_link_##]">[##_tblist_rep_subject_##]</a></dt>
+				<dd class="title panel-body">[##_tblist_rep_subject_##]</dd>
+				<dd class="regdate panel-body"><time>[##_tblist_rep_regdate_##]</time>  <cite>by [##_tblist_rep_name_##]</cite></dd>
+				<dd class="content panel-body">[##_tblist_rep_body_##]</dd>
+			</dl>
+			";s:13:"trackbackList";s:305:" <!-- Trackbacks/Pingbacks List section ............................................ -->
+	<section class="list trackback">
+		<header>
+[##_SKIN_head_start_##]			<h2>[##_tblist_count_##] Trackbacks about '[##_tblist_conform_##]'</h2>
+		</header>
+		<article>
+			[##_tblist_rep_##]
+		</article>
+	</section>
+	";s:10:"keylogItem";s:260:" <!-- Keylog post section (for tag description, etc..) ...................  -->
+	<section class="keylog post">
+		<header>
+[##_SKIN_head_start_##]			<h2>[##_keylog_rep_title_##]</h2>
+		</header>
+		<article>
+			[##_keylog_rep_desc_##]
+		</article>
+	</section>
+	";s:14:"recentPageItem";N;s:10:"recentPage";N;s:10:"authorList";N;s:15:"recentEntryItem";s:264:"
+				<li class="list-group-item"><a href="[##_rctps_rep_link_##]">
+						[##_rctps_rep_title_##] <span class="count badge">[##_rctps_rep_rp_cnt_##]</span></a>
+						by <cite><a href="[##_rctps_rep_author_link_##]">[##_rctps_rep_author_##]</a></cite>
+				</li>
+				";s:17:"recentCommentItem";N;s:13:"recentComment";N;s:19:"recentTrackbackItem";N;s:8:"link_rep";N;s:13:"entryOriginal";s:2597:" <!-- Post section ....................................................... -->
+	<section class="post [##_article_rep_category_body_id_##]">
+		<header>
+[##_SKIN_head_start_##]			<h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+		</header>
+		<article class="post [##_article_rep_category_body_id_##]">
+			[##_ad_div_##]
+			<div class="article-body">
+			[##_article_rep_desc_##]
+			</div>
+		</article>
+	</section>
+	<section class="summary">
+		<article>
+			<dl class="dl-horizontal information">
+			    <dt>Posted at</dt>
+			    <dd class="posted date"><i class="glyphicon glyphicon-pencil"></i> <time>[##_article_rep_date_##]</time></dd>
+			    <dt>Last updated</dt>
+			    <dd class="modified date"><i class="glyphicon glyphicon-time"></i> <time>[##_article_rep_date_modified_##]</time></dd>
+			    <dt>Author</dt>
+			    <dd class="author"><i class="glyphicon glyphicon-user"></i> <cite><a href="[##_article_rep_author_link_##]">[##_article_rep_author_##]</a></cite></dd>
+			    <dt>Category</dt>
+			    <dd class="category"><i class="glyphicon glyphicon-list"></i>  <a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></dd>
+			    <dt>Track category via</dt>
+			    <dd class="category rss feed">
+				<a href="[##_article_rep_category_rssurl_##]" onclick="window.open(this.href); return false"><i class="fa fa-rss-square"></i> RSS 2.0 feed</a>
+				<a href="[##_article_rep_category_atomurl_##]" onclick="window.open(this.href); return false"><i class="fa fa-rss-square"></i> ATOM 1.0 feed</a>
+			    </dd>
+			    [##_tag_label_##]
+			</dl>
+			<dl class="dl-horizontal response">
+				<dt class="response">Leave Responses</dt>
+				<dd class="response">
+					<div class="btn-group">
+					<a id="[##_article_rep_tb_cnt_id_##]" href="#tb" onclick="[##_article_rep_tb_link_##]" label="Show/hide responses" class="btn btn-default btn-xs">
+					[##_tb_count_##]
+					</a>
+					<a id="[##_article_rep_rp_cnt_id_##]" href="#rp" onclick="[##_article_rep_rp_link_##]" title="Show/hide commments" class="btn btn-default btn-xs">
+					[##_rp_count_##]
+					</a>
+					</div>
+				</dd>
+				<dt class="feed">Track responses via</dt>
+				<dd class="feed">
+				    <a href="[##_article_rep_response_rssurl_##]" onclick="window.open(this.href); return false" class="rss feed"><i class="fa fa-rss-square"></i> RSS 2.0 feed</a>
+				    <a href="[##_article_rep_response_atomurl_##]" onclick="window.open(this.href); return false" class="atom feed"><i class="fa fa-rss-square"></i> ATOM 1.0 feed</a>
+				</dd>
+			</dl>
+		</article>
+	</section>
+
+	[##_tb_##]
+	[##_rp_##]
+	";}

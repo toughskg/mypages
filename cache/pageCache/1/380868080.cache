@@ -1,0 +1,16 @@
+  <!-- List section ................................................................. -->
+			<section class="list search">
+				<header class="page-header">
+[##_SKIN_head_start_##]					<h4><i class="fa fa-search"></i> 1 Entries : Results for <small><i class="fa fa-quote-left"></i></small> toughskg <small><i class="fa fa-quote-right"></i></small></h4>
+				</header>
+				<article class="list-group">
+					
+					<dl class="list-group-item">
+						<dt class="title"><a href="/entry/welcome">환영합니다 </a> <span class="badge"></span></dt>
+						<dd class="regdate"><i class="fa fa-clock-o"></i> <time>2015/07/10</time></dd>
+					</dl>
+					
+				</article>
+			</section>
+			
+[##_paging_list_##]
